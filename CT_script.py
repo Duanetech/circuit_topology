@@ -10,6 +10,7 @@ if dlinput == 'y':
 #%%
 for files in os.listdir('PDB/mmCif'):
     cif_file = 'PDB/mmCif/'+ files
+    
     #Step 1 - Draw a segment-segment based contact map
     cmap3, protid, cmap, numbering = circuit_diagram_residue(cif_file)
  
