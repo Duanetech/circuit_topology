@@ -10,11 +10,11 @@ import warnings
 import os
 
 def retrieve_pdb_files():
-    server = PDBList(server='ftp://ftp.wwpdb.org', pdb=None, obsolete_pdb=None, verbose=True)
+    server = PDBList(server='ftp://ftp.wwpdb.org', pdb=None, obsolete_pdb=None ,verbose=True)
     pdb_list = open('PDB/pdblist.txt','r')
     content = pdb_list.read().split()
     pdb_list.close()
-    server.download_pdb_files(content,pdir="PDB/mmCif",file_format='mmCif', overwrite=True)
+    server.download_pdb_files(content,pdir="PDB/mmCif",file_format='mmCif', overwrite=True,obsolete= False)
 
 def circuit_diagram_residue(cif_file,cutoff_distance = 3.6,cutoff_numcontacts = 3,plot_figs = 1,fileformat='jpeg'):
     
