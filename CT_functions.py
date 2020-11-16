@@ -1,4 +1,3 @@
-
 from Bio import BiopythonWarning
 from Bio.PDB import *
 import numpy as np
@@ -8,7 +7,14 @@ from scipy.spatial.distance import pdist, squareform
 import sys
 import string
 import warnings
+import os
 
+def retrieve_pdb_files():
+    server = PDBList(server='ftp://ftp.wwpdb.org', pdb=None, obsolete_pdb=None, verbose=True)
+    pdb_list = open('PDB/pdblist.txt','r')
+    content = pdb_list.read().split()
+    pdb_list.close()
+    server.download_pdb_files(content,pdir="PDB/mmCif",file_format='mmCif', overwrite=True)
 
 def circuit_diagram_residue(cif_file,cutoff_distance = 3.6,cutoff_numcontacts = 3,plot_figs = 1,fileformat='jpeg'):
     
@@ -16,9 +22,11 @@ def circuit_diagram_residue(cif_file,cutoff_distance = 3.6,cutoff_numcontacts = 
     with warnings.catch_warnings():
         warnings.simplefilter('ignore', BiopythonWarning)
         #Import the protein data
+        
         structure = MMCIFParser().get_structure(cif_file,cif_file)
         chain = structure[0]['A']
-        protid = cif_file.replace('.cif','')
+        protid1 = cif_file.replace('.cif','')
+        protid = protid1.replace('PDB/mmCif/','')
     
     #remove heteroatoms (water molecules)
     removeres = []
@@ -116,7 +124,7 @@ def circuit_diagram_residue(cif_file,cutoff_distance = 3.6,cutoff_numcontacts = 
                     plt.plot(xx,yy,
                     color ='k',
                     linewidth = np.log(cmap2[i][j]+1))
-        plt.savefig(protid + '_cmap.'+ fileformat)
+        plt.savefig('PDB/Contact map/' + protid + '_cmap.'+ fileformat)
 
     #transform the residue based contact map based on the minimal number of contacts
     cmap3 = (cmap2 >= cutoff_numcontacts) * 1
@@ -191,7 +199,7 @@ def get_matrix(cmap3,protid,plot_figs=1,fileformat='jpeg'):
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
             cbar.ax.set_yticklabels(['P','P-1','S','X','CP','CP-1','CS','-'])
-        plt.savefig(protid + '_matrix.'+ fileformat)
+        plt.savefig('PDB/Matrix/' +protid + '_matrix.'+ fileformat)
     return mat, c
 
 def get_ct_stats(mat,protid,plot_figs=1,fileformat='jpeg'):
@@ -216,16 +224,10 @@ def get_ct_stats(mat,protid,plot_figs=1,fileformat='jpeg'):
         ax1.set_ylabel('Fraction entangled')
         fig.suptitle(protid)
         ax2.legend(['Paralell','Series','Cross'],bbox_to_anchor=(.5, -0.5, 0.5, 0.5) )
-        plt.savefig(protid + '_ctstats.'+fileformat)
+        plt.savefig('PDB/Statistics/' +protid + '_ctstats.'+fileformat)
 
     return psc, entangled
 
-#Step 1 - Draw a segment-segment based contact map
-cmap3, protid, cmap, numbering = circuit_diagram_residue('2wqi.cif')
 
-#Step 2 - Draw a circuit topology relations matrix
-mat, c = get_matrix(cmap3,protid)
 
-#Step 3 - Circuit topology statistics
-psc, entangled = get_ct_stats(mat,protid)
 
