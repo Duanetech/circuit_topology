@@ -6,4 +6,4 @@ def retrieve_cif():
     pdb_list = open('input_files/pdblist.txt','r')
     content = pdb_list.read().split()
     pdb_list.close()
-    server.download_pdb_files(content,pdir="input_files/mmcif",file_format='mmCif', overwrite=True,obsolete= False)
+    server.download_pdb_files(content,pdir="input_files/cif",file_format='mmCif', overwrite=True,obsolete= False)
