@@ -23,7 +23,7 @@ for files in os.listdir('input_files/' +fileformat):
     #Step 1 - Draw a segment-segment based contact map (if length_filtering > 0, it is activated, input is the max distance)
     cmap3, cmap2, protid ,numbering, res_names = get_cmap.get_cmap(chain,length_filtering=0,cutoff_distance=3.6,cutoff_numcontacts=3)
 
-    #Step 1.5 - Energy filtering
+    #Step 1.5 - Energy filteringcif
     if efiltering == 'y':
         cmap3,x = energy_cmap.energy_cmap(cmap3,numbering,res_names)
         protid = protid + '_ef'
@@ -40,7 +40,6 @@ for files in os.listdir('input_files/' +fileformat):
     circuit_plot.circuit_plot(cmap2,protid,numbering)
     matrix_plot.matrix_plot(mat,protid)
     stats_plot.stats_plot(entangled,psc,protid)
-    
 
 
 

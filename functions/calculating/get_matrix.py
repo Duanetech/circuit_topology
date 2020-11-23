@@ -15,6 +15,7 @@ def get_matrix(cmap3,protid):
 
     for x in range(0,len(rows)):
         for y in range(x+1,len(rows)):
+            
             k = rows[x]
             m = cols[x]
             i = rows[y]
@@ -52,4 +53,4 @@ def get_matrix(cmap3,protid):
             else:
                 print('Something went wrong')
             
-            return mat, c
+    return mat, c
