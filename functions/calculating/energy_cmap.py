@@ -1,6 +1,6 @@
 import numpy as np
 
-def energy_cmap(cmap3,numbering,res_names,potential_sign = 1):
+def energy_cmap(cmap3,numbering,res_names,potential_sign = 0):
     
     n_amino = 20
     aamap = np.array(['CYS','MET','PHE','ILE','LEU','VAL','TRP','TYR','ALA','GLY','THR','SER','GLN','ASN','GLU','ASP','HIS','ARG','LYS','PRO'])

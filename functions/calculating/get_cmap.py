@@ -4,7 +4,8 @@ from scipy.spatial.distance import pdist, squareform
 import numpy as np
 import warnings
 
-def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,length_filtering = 0):
+def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
+            length_filtering = 0,exclude_neighbour=4):
     
     protid = chain.get_parent().get_parent().id
     
@@ -50,12 +51,11 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,length_filtering
     cmap = squareform(pdist(coords))
     natoms = len(atom_list)
 
-    cmap[cmap < cutoff_distance]= 1
-    cmap[cmap > cutoff_distance]= 0
+    cmap = (cmap < cutoff_distance) * 1
 
     #segment-segment based contact map, based on atom-atom based contact map
     cmap2 = np.zeros([nseg,nseg],dtype='int')
-    
+
     for i in range(0,natoms):
         for j in range(i+1,natoms):
                
@@ -63,9 +63,11 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,length_filtering
             seg_j = segment[residue_number[j]]
             if length_filtering != 0: 
                 dist_sequence = abs(seg_i-seg_j)
+                
                 if cmap[i][j] == 1 and dist_sequence < length_filtering:
                     if seg_i != 0 and seg_j != 0:
                         cmap2[seg_i][seg_j] = cmap2[seg_i][seg_j]+1
+                        
             else:
                 if cmap[i][j] == 1:
                     if seg_i != 0 and seg_j != 0:
@@ -74,17 +76,10 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,length_filtering
     cmap2 = cmap2 + cmap2.T
 
     #set values close to diagonal to zero
-    for i in range(0,len(cmap2)):
-        cmap2[i][i] = 0
-    for i in range(0,len(cmap2)-1):
-        cmap2[i][i+1] = 0
-        cmap2[i+1][i] = 0
-    for i in range(0,len(cmap2)-2):
-        cmap2[i][i+2] = 0
-        cmap2[i+2][i] = 0
-    for i in range(0,len(cmap2)-3):
-        cmap2[i][i+3] = 0
-        cmap2[i+3][i] = 0
+    for i in range(0,exclude_neighbour+1):
+        for j in range(0,len(cmap2)-i):
+            cmap2[j][j+i] = 0
+            cmap2[j+i][j] = 0
 
     cmap3 = (cmap2 >= cutoff_numcontacts) * 1
     return cmap3, cmap2, protid ,numbering, res_names
