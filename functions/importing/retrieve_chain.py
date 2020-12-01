@@ -5,19 +5,20 @@ import warnings
 def retrieve_chain(input_file):
     if input_file.endswith('cif'):
         
-        input_file= 'input_files/cif/' + input_file
+        input_filepath= 'input_files/cif/' + input_file
         #Supress harmless warnings
         with warnings.catch_warnings():
             warnings.simplefilter('ignore', BiopythonWarning)
             #Import the protein data
-            structure = MMCIFParser().get_structure(input_file.replace('.cif','').replace('input_files/cif/',''),input_file)
+            structure = MMCIFParser().get_structure(input_file.replace('.cif',''),input_filepath)
    
     else:
-        input_file= 'input_files/pdb/' + input_file
+        input_filepath= 'input_files/pdb/' + input_file
        
-        structure = PDBParser(PERMISSIVE=1).get_structure(input_file.replace('.pdb','').replace('input_files/pdb/',''),input_file)
-     
-    chain = structure[0]['A']
+        structure = PDBParser(PERMISSIVE=1).get_structure(input_file.replace('.pdb',''),input_filepath)
+
+    chainlist = structure[0].get_list()
+    chain = chainlist[0]
 
     #remove heteroatoms (water molecules)
     removeres = []
