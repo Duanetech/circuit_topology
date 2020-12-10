@@ -6,7 +6,7 @@ import warnings
 
 def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
             length_filtering = 0,exclude_neighbour=4):
-    
+
     protid = chain.get_parent().get_parent().id
     
     #Get a list of the residues and atoms
@@ -49,7 +49,7 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
 
     #atom-atom based contact map
     cmap = squareform(pdist(coords))
-    natoms = len(atom_list)
+    natoms = len(residue_number)
 
     cmap = (cmap < cutoff_distance) * 1
 
@@ -61,16 +61,15 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
                
             seg_i = segment[residue_number[i]]
             seg_j = segment[residue_number[j]]
-            if length_filtering != 0: 
+            if length_filtering != 0:
+                print('not zero')
                 dist_sequence = abs(seg_i-seg_j)
                 
                 if cmap[i][j] == 1 and dist_sequence < length_filtering:
-                    if seg_i != 0 and seg_j != 0:
-                        cmap2[seg_i][seg_j] = cmap2[seg_i][seg_j]+1
+                    cmap2[seg_i][seg_j] = cmap2[seg_i][seg_j]+1
                         
             else:
                 if cmap[i][j] == 1:
-                    if seg_i != 0 and seg_j != 0:
                         cmap2[seg_i][seg_j] = cmap2[seg_i][seg_j]+1
 
     cmap2 = cmap2 + cmap2.T

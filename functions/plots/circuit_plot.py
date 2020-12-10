@@ -1,20 +1,22 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def circuit_plot(cmap,protid,numbering,fileformat='jpeg'):
+def circuit_plot(cmap,protid,numbering,cutoff_numcontacts,fileformat='jpeg'):
     nseg = len(cmap)
     segment = list(range(0,nseg))  
     ax = plt.subplots()[1]
     plt.plot()
-    plt.hlines(0,0,len(numbering)+1,colors = 'k')
-    plt.xlim(1,len(numbering)+1)
+    plt.xlim(0,len(numbering)+1)
+    plt.hlines(0,0,len(numbering)+1,colors = 'k',linestyles='dashed')
     ax.tick_params(labelleft = False)
     ax.set_xlabel('Residue')
     ax.set_title(protid)
+    sitelist = []
     for i in range(0,nseg):
         for j in range(i + 1,nseg):
-            if cmap[i][j] >= 3:
+            if cmap[i][j] >= cutoff_numcontacts:
                 X = np.array([segment[i]+1,segment[j]+1])
+                sitelist.append(X)
                 r = (X[1]-X[0])/2
                 center = np.mean(X)
                 xx = np.arange(X[0],X[1]+0.001,0.01)
@@ -25,4 +27,7 @@ def circuit_plot(cmap,protid,numbering,fileformat='jpeg'):
                 plt.plot(xx,yy,
                 color ='k',
                 linewidth = np.log(cmap[i][j]+1))
+    
     plt.savefig('results/circuit_diagram/' + protid + '_cmap.'+ fileformat)
+
+    return np.array(sitelist)
