@@ -64,7 +64,7 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
             if length_filtering != 0:
                 print('not zero')
                 dist_sequence = abs(seg_i-seg_j)
-                
+                s
                 if cmap[i][j] == 1 and dist_sequence < length_filtering:
                     cmap2[seg_i][seg_j] = cmap2[seg_i][seg_j]+1
                         
@@ -82,6 +82,5 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
 
     cmap3 = (cmap2 >= cutoff_numcontacts) * 1
     return cmap3, cmap2, protid ,numbering, res_names
-
 
 

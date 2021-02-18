@@ -19,7 +19,7 @@ def retrieve_chain(input_file):
 
     chainlist = structure[0].get_list()
     chain = chainlist[0]
-
+    
     #remove heteroatoms (water molecules)
     removeres = []
     for res in chain:
@@ -28,6 +28,7 @@ def retrieve_chain(input_file):
             
     for res in removeres:
         chain.detach_child(res)
-    return chain
+        
+    return chain, input_filepath
 
 

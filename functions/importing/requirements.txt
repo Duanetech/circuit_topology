@@ -1,0 +1,6 @@
+scipy
+biopython
+numpy
+dssp
+ipympl
+matplotlib

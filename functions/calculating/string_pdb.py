@@ -80,14 +80,14 @@ def string_pdb(cmap,sitelist,numbering,threshold):
     for i in range(1,np.amax(n)+1):
         num.append(np.count_nonzero(n==i))
 
-    c = np.zeros(sum(num),dtype='int')
+    c = np.zeros([0,0],dtype='int')
 
     for i in range(0,len(num)):
-        for j in range(0,len(c)):
-            if num[i] > 2:
-                c[j] = 0
-            else:
-                c[j] = 1
+        if num[i] > 2:
+            c = np.concatenate((c,np.zeros([num[i]],dtype='int')),axis=None)
+
+        else:
+            c = np.concatenate((c,np.ones([num[i]],dtype='int')),axis=None)
 
     d = n * c
 
@@ -101,11 +101,14 @@ def string_pdb(cmap,sitelist,numbering,threshold):
 
     segends = []
     for i in range(1,max(n)+1):
-        segends.append(sitelist[s2[max(np.where(n==i)[0])]][1])
+        try:
+            segends.append(sitelist[s2[max(np.where(n==i)[0])]][1])
+        except ValueError:
+            continue
 
     segnums = max(n)
     length = np.array(segends[0])
-    length = np.append(length,np.diff(segends)[0])
+    length = np.append(length,np.diff(segends))
     meanlength = np.mean(length)
     standard_dev = np.std(length,ddof=1)
     threshold_length = meanlength - standard_dev / 2

@@ -6,7 +6,7 @@ def get_matrix(cmap3,protid):
     rows,cols = np.nonzero(np.triu(cmap3))
     
     #create a numerical and character matrix based on the amount of nonzero values found in the previous function
-    mat = np.identity(len(rows))*8
+    mat = np.identity(len(rows),dtype='int')*8
     c = np.empty([len(rows),len(rows)],dtype=object)
 
     #Change the values based on the type of connection
