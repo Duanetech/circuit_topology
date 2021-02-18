@@ -21,4 +21,3 @@ def matrix_plot(mat,protid,fileformat = 'jpeg'):
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         cbar.ax.set_yticklabels(['P','P-1','S','X','CP','CP-1','CS','-'])
-    plt.savefig('results/matrix/' +protid + '_matrix.'+ fileformat)

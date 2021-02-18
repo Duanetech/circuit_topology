@@ -1,0 +1,45 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    DMRADICVHLNRKVFKEHPAFRLASDGCLRALAMEFQTVHCAPGDLIYHA   50          ~~~~
+STR        HHHHHHHHHHHHHHH  GGGTTT HHHHHHHHH EEEEEETTTEEEETT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   GESVDSLCFVVSGSLEVIQDDEVVAILGKGDVFGDVFWKEATLAQSCANV  100          ~~~~
+STR       TEEE EEEEEEE  EEEEETTEEEEEETTTEEEE TTTTT   EEE  EE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .                         ~~~~
+SEQ  101  RALTYCDLHVIKRDALQKVLEFYTAFSHSFSRNLILTYNLRKRIVF      146          ~~~~
+STR       EETTTEEEEEEEHHHHHHHHHHHHHHHHHHHHH  TTEETTT                       ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   MET   563 A      LYS    577 A                            ~~~~
+LOC  AlphaHelix   ASP   587 A      MET    595 A                            ~~~~
+LOC  AlphaHelix   ARG   674 A      ASN    694 A                            ~~~~
+LOC  310Helix     PRO   580 A      PHE    582 A                            ~~~~
+LOC  Strand       PHE   597 A      CYS    602 A                            ~~~~
+LOC  Strand       ASP   606 A      TYR    609 A                            ~~~~
+LOC  Strand       GLU   613 A      VAL    615 A                            ~~~~
+LOC  Strand       SER   617 A      SER    623 A                            ~~~~
+LOC  Strand       LEU   626 A      GLN    630 A                            ~~~~
+LOC  Strand       GLU   633 A      LEU    638 A                            ~~~~
+LOC  Strand       ASP   642 A      GLY    645 A                            ~~~~
+LOC  Strand       ALA   655 A      SER    657 A                            ~~~~
+LOC  Strand       ASN   660 A      ALA    663 A                            ~~~~
+LOC  Strand       CYS   667 A      LYS    673 A                            ~~~~
+LOC  Strand       TYR   699 A      ASN    700 A                            ~~~~
+LOC  TurnI        PHE   582 A      ALA    585 A                            ~~~~
+LOC  TurnII       ALA   603 A      ASP    606 A                            ~~~~
+LOC  TurnVIII     LEU   607 A      HIS    610 A                            ~~~~
+LOC  TurnII       HIS   610 A      GLU    613 A                            ~~~~
+LOC  TurnIV       ILE   629 A      ASP    632 A                            ~~~~
+LOC  TurnI'       GLN   630 A      GLU    633 A                            ~~~~
+LOC  TurnII       GLY   639 A      ASP    642 A                            ~~~~
+LOC  TurnI        VAL   647 A      LYS    650 A                            ~~~~
+LOC  TurnI        PHE   648 A      GLU    651 A                            ~~~~
+LOC  TurnIV       ALA   663 A      TYR    666 A                            ~~~~
+LOC  TurnVIII     LEU   697 A      ASN    700 A                            ~~~~
+LOC  TurnI        ASN   700 A      LYS    703 A                            ~~~~

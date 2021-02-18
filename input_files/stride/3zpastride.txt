@@ -1,0 +1,102 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod E                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    DQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKKHNGKLCDLDGVKPL   50          ~~~~
+STR                     EE TTTTTTEEEEEEEE EE      EEEETTB  E               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   ILRDCSVAGWLLGNPMCDEFINVPEWSYIVEKANPVNDLCYPGDFNDYEE  100          ~~~~
+STR       ETTTB HHHHHH TTTTGGGTTT     EEETTTTTBTTTTTEEETTHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  LKHLLSRINHFEKIQIIPKSSWSSHEASLGVSSVCPYQGKSSFFRNVVWL  150          ~~~~
+STR       HHHHHH    EEEEETTTTTTTTTTBTTTT EEEEEETTEEE TTTEEE                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  151  FKKNSTYPTIKRSYNNTNQEDLLVLWGIHHPNDAAEQTKLYQNPTTYISV  200          ~~~~
+STR       BTBTTB   EEEEEEE     EEEEEEEEE   HHHHHHHHTTTTT EEE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  201  GTSTLNQRLVPRIATRSKVNGQSGRMEFFWTILKPNDAINFESNGNFIAP  250          ~~~~
+STR       ETTTTEEEE        TBTTB  EEEEEEEEETTTEEEEEEE   EEEE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  251  EYAYKIVKKGDSTIMKSELEYGNCNTKCQTPMGAINSSMPFHNIHPLTIG  300          ~~~~
+STR        EEEEE       EEE    EEEEEETEEETTEEE     EE      EE               ~~~~
+REM                                                                        ~~~~
+REM                .         .                                             ~~~~
+SEQ  301  ECPKYVKSNRLVLATGLRNSP                               321          ~~~~
+STR       TT EE  TTTTEEEEEEE                                               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   VAL    61 E      LEU     66 E                            ~~~~
+LOC  AlphaHelix   TYR   102 E      SER    110 E                            ~~~~
+LOC  AlphaHelix   ALA   188 E      TYR    195 E                            ~~~~
+LOC  310Helix     ASP    72 E      PHE     74 E                            ~~~~
+LOC  Strand       GLN    19 E      VAL     20 E                            ~~~~
+LOC  Strand       VAL    28 E      ASP     35 E                            ~~~~
+LOC  Strand       LEU    37 E      GLU     38 E                            ~~~~
+LOC  Strand       LEU    45 E      LEU     48 E                            ~~~~
+LOC  Strand       LEU    54 E      ILE     55 E                            ~~~~
+LOC  Strand       ILE    83 E      GLU     85 E                            ~~~~
+LOC  Strand       GLY    97 E      PHE     99 E                            ~~~~
+LOC  Strand       PHE   115 E      GLN    119 E                            ~~~~
+LOC  Strand       SER   136 E      TYR    141 E                            ~~~~
+LOC  Strand       LYS   144 E      SER    146 E                            ~~~~
+LOC  Strand       VAL   151 E      TRP    153 E                            ~~~~
+LOC  Strand       ILE   164 E      ASN    170 E                            ~~~~
+LOC  Strand       LEU   176 E      HIS    184 E                            ~~~~
+LOC  Strand       ILE   202 E      GLY    205 E                            ~~~~
+LOC  Strand       ASN   210 E      LEU    213 E                            ~~~~
+LOC  Strand       ARG   229 E      LEU    237 E                            ~~~~
+LOC  Strand       ASP   241 E      SER    247 E                            ~~~~
+LOC  Strand       PHE   251 E      PRO    254 E                            ~~~~
+LOC  Strand       TYR   256 E      ILE    260 E                            ~~~~
+LOC  Strand       ILE   268 E      LYS    270 E                            ~~~~
+LOC  Strand       TYR   275 E      THR    280 E                            ~~~~
+LOC  Strand       CYS   282 E      THR    284 E                            ~~~~
+LOC  Strand       GLY   287 E      ILE    289 E                            ~~~~
+LOC  Strand       PHE   295 E      HIS    296 E                            ~~~~
+LOC  Strand       ILE   303 E      GLY    304 E                            ~~~~
+LOC  Strand       LYS   308 E      TYR    309 E                            ~~~~
+LOC  Strand       VAL   316 E      ARG    322 E                            ~~~~
+LOC  TurnI        THR    22 E      GLU     25 E                            ~~~~
+LOC  TurnIV       GLU    25 E      VAL     28 E                            ~~~~
+LOC  TurnVIII     VAL    30 E      ALA     33 E                            ~~~~
+LOC  TurnIV       ASP    47 E      GLY     50 E                            ~~~~
+LOC  TurnI'       LEU    48 E      VAL     51 E                            ~~~~
+LOC  TurnII'      LEU    56 E      CYS     59 E                            ~~~~
+LOC  TurnI        ASN    68 E      CYS     71 E                            ~~~~
+LOC  TurnI        PRO    69 E      ASP     72 E                            ~~~~
+LOC  TurnVIII     PHE    74 E      VAL     77 E                            ~~~~
+LOC  TurnVIII     LYS    86 E      PRO     89 E                            ~~~~
+LOC  TurnIV       PRO    89 E      ASP     92 E                            ~~~~
+LOC  TurnIV       ASN    91 E      CYS     94 E                            ~~~~
+LOC  TurnVIII     LEU    93 E      PRO     96 E                            ~~~~
+LOC  TurnIV       PHE    99 E      TYR    102 E                            ~~~~
+LOC  TurnVIII     GLN   119 E      PRO    122 E                            ~~~~
+LOC  TurnI        PRO   122 E      SER    125 E                            ~~~~
+LOC  TurnI        LYS   123 E      TRP    126 E                            ~~~~
+LOC  TurnI        TRP   126 E      HIS    129 E                            ~~~~
+LOC  TurnIV       GLU   130 E      LEU    133 E                            ~~~~
+LOC  TurnI        ALA   131 E      GLY    134 E                            ~~~~
+LOC  TurnI        SER   136 E      CYS    139 E                            ~~~~
+LOC  TurnIV       SER   137 E      PRO    140 E                            ~~~~
+LOC  TurnIV       PRO   140 E      GLY    143 E                            ~~~~
+LOC  TurnI'       TYR   141 E      LYS    144 E                            ~~~~
+LOC  TurnI        PHE   148 E      VAL    151 E                            ~~~~
+LOC  TurnIV       LYS   156 E      SER    159 E                            ~~~~
+LOC  TurnI'       LYS   157 E      THR    160 E                            ~~~~
+LOC  TurnVIII     ASN   197 E      THR    200 E                            ~~~~
+LOC  TurnI        THR   206 E      LEU    209 E                            ~~~~
+LOC  TurnIV       LYS   222 E      GLY    225 E                            ~~~~
+LOC  TurnI'       VAL   223 E      GLN    226 E                            ~~~~
+LOC  TurnII       LYS   238 E      ASP    241 E                            ~~~~
+LOC  TurnIV       THR   280 E      GLN    283 E                            ~~~~
+LOC  TurnI        THR   284 E      GLY    287 E                            ~~~~
+LOC  TurnIV       ILE   303 E      CYS    306 E                            ~~~~
+LOC  TurnVIII     SER   312 E      LEU    315 E                            ~~~~
+LOC  GammaClassic  TYR   195 E      ASN    197 E                           ~~~~

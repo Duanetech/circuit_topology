@@ -1,0 +1,27 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    AQEAVIEAKRYLNNAKDILRDKGGKEDGFYQDSKYVKAGHTAYSGVLFAL   50          ~~~~
+STR         HHHHHHHHHHHHHHHHHHHHH EETTEE  HHHHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   DHYFGKKTKGRKDVDWYKSNLAQQDKKILNTFVSVYEQLHLVAYDGVGDA  100          ~~~~
+STR       HHHH         HHHHHHHHHH  HHHHHHHHHHHHHHHHHHHH   BH               ~~~~
+REM                                                                        ~~~~
+REM                .         .                                             ~~~~
+SEQ  101  EVVKLGFQRAEIIIDWVERRLAA                             123          ~~~~
+STR       HHHHHHHHHHHHHHHHHHHHHH                                           ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   GLU    11 A      GLY     31 A                            ~~~~
+LOC  AlphaHelix   SER    41 A      PHE     63 A                            ~~~~
+LOC  AlphaHelix   VAL    73 A      GLN     82 A                            ~~~~
+LOC  AlphaHelix   LYS    85 A      ASP    105 A                            ~~~~
+LOC  AlphaHelix   ALA   110 A      ALA    132 A                            ~~~~
+LOC  Strand       LYS    33 A      GLU     34 A                            ~~~~
+LOC  Strand       PHE    37 A      TYR     38 A                            ~~~~
+LOC  TurnIV       LYS    33 A      GLY     36 A                            ~~~~
+LOC  TurnI'       GLU    34 A      PHE     37 A                            ~~~~

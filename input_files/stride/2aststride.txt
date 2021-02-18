@@ -1,0 +1,82 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    ASIKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDPVPLPNVNAAILKK   50          ~~~~
+STR        EEEEETTTT EEEEETTGGGGTTTGGGGTTTT    EETTTTTTTTTTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   VIQWCTHHKDDPPTDDIPVWDQEFLKVDQGTLFELILAANYLDIKGLLDV  100          ~~~~
+STR       TTTGGGTTTTT       GGGGTTTT TTTTTTTTTTTTTTTTTTTTTTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .                         ~~~~
+SEQ  101  TCKTVANMIKGKTPEEIRKTFNIKNDFTEEEEAQVRKENQWC          142          ~~~~
+STR       TTTTGGGGTTTTTTTTTTTTTT  TTTTTTTTTTTGGG                           ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  310Helix     ILE  1020 A      GLN   1023 A                            ~~~~
+LOC  310Helix     ILE  1027 A      MET   1030 A                            ~~~~
+LOC  310Helix     TRP  1055 A      THR   1057 A                            ~~~~
+LOC  310Helix     VAL  1087 A      GLN   1090 A                            ~~~~
+LOC  310Helix     VAL  1123 A      MET   1126 A                            ~~~~
+LOC  310Helix     ARG  1154 A      GLU   1156 A                            ~~~~
+LOC  Strand       SER  1003 A      GLN   1007 A                            ~~~~
+LOC  Strand       ILE  1013 A      ASP   1017 A                            ~~~~
+LOC  Strand       VAL  1039 A      PRO   1040 A                            ~~~~
+LOC  TurnI'       SER  1008 A      GLY   1011 A                            ~~~~
+LOC  TurnI'       ASP  1017 A      ILE   1020 A                            ~~~~
+LOC  TurnIV       SER  1024 A      ILE   1027 A                            ~~~~
+LOC  TurnIV       MET  1030 A      ASP   1033 A                            ~~~~
+LOC  TurnIV       LEU  1031 A      LEU   1034 A                            ~~~~
+LOC  TurnI'       LEU  1041 A      VAL   1044 A                            ~~~~
+LOC  TurnIV       ASN  1045 A      ILE   1048 A                            ~~~~
+LOC  TurnI'       ALA  1046 A      LEU   1049 A                            ~~~~
+LOC  TurnI'       ALA  1047 A      LYS   1050 A                            ~~~~
+LOC  TurnIV       ILE  1048 A      LYS   1051 A                            ~~~~
+LOC  TurnIV       LEU  1049 A      VAL   1052 A                            ~~~~
+LOC  TurnIV       LYS  1050 A      ILE   1053 A                            ~~~~
+LOC  TurnI'       LYS  1051 A      GLN   1054 A                            ~~~~
+LOC  TurnIV       VAL  1052 A      TRP   1055 A                            ~~~~
+LOC  TurnI'       THR  1057 A      LYS   1060 A                            ~~~~
+LOC  TurnI'       HIS  1059 A      ASP   1062 A                            ~~~~
+LOC  TurnIV       GLN  1090 A      LEU   1093 A                            ~~~~
+LOC  TurnI'       GLU  1091 A      LYS   1094 A                            ~~~~
+LOC  TurnIV       ASP  1096 A      THR   1099 A                            ~~~~
+LOC  TurnIV       GLN  1097 A      LEU   1100 A                            ~~~~
+LOC  TurnIV       GLY  1098 A      PHE   1101 A                            ~~~~
+LOC  TurnIV       THR  1099 A      GLU   1102 A                            ~~~~
+LOC  TurnI'       LEU  1100 A      LEU   1103 A                            ~~~~
+LOC  TurnIV       PHE  1101 A      ILE   1104 A                            ~~~~
+LOC  TurnIV       GLU  1102 A      LEU   1105 A                            ~~~~
+LOC  TurnI'       LEU  1103 A      ALA   1106 A                            ~~~~
+LOC  TurnIV       ILE  1104 A      ALA   1107 A                            ~~~~
+LOC  TurnIV       LEU  1105 A      ASN   1108 A                            ~~~~
+LOC  TurnI'       ALA  1106 A      TYR   1109 A                            ~~~~
+LOC  TurnIV       ALA  1107 A      LEU   1110 A                            ~~~~
+LOC  TurnI'       ASN  1108 A      ASP   1111 A                            ~~~~
+LOC  TurnI'       ILE  1112 A      LEU   1115 A                            ~~~~
+LOC  TurnI'       LYS  1113 A      LEU   1116 A                            ~~~~
+LOC  TurnIV       GLY  1114 A      ASP   1117 A                            ~~~~
+LOC  TurnIV       LEU  1115 A      VAL   1118 A                            ~~~~
+LOC  TurnI'       LEU  1116 A      THR   1119 A                            ~~~~
+LOC  TurnI'       ASP  1117 A      CYS   1120 A                            ~~~~
+LOC  TurnI'       VAL  1118 A      LYS   1121 A                            ~~~~
+LOC  TurnI'       THR  1119 A      THR   1122 A                            ~~~~
+LOC  TurnIV       CYS  1120 A      VAL   1123 A                            ~~~~
+LOC  TurnIV       ILE  1127 A      LYS   1130 A                            ~~~~
+LOC  TurnI'       THR  1131 A      GLU   1134 A                            ~~~~
+LOC  TurnI'       PRO  1132 A      ILE   1135 A                            ~~~~
+LOC  TurnIV       GLU  1133 A      ARG   1136 A                            ~~~~
+LOC  TurnI'       GLU  1134 A      LYS   1137 A                            ~~~~
+LOC  TurnIV       ILE  1135 A      THR   1138 A                            ~~~~
+LOC  TurnI'       ARG  1136 A      PHE   1139 A                            ~~~~
+LOC  TurnI'       LYS  1137 A      ASN   1140 A                            ~~~~
+LOC  TurnIV       ASN  1143 A      THR   1146 A                            ~~~~
+LOC  TurnIV       THR  1146 A      GLU   1149 A                            ~~~~
+LOC  TurnIV       GLU  1147 A      GLU   1150 A                            ~~~~
+LOC  TurnI'       GLU  1148 A      ALA   1151 A                            ~~~~
+LOC  TurnI'       GLU  1149 A      GLN   1152 A                            ~~~~
+LOC  TurnI'       GLU  1150 A      VAL   1153 A                            ~~~~
+LOC  TurnI'       ALA  1151 A      ARG   1154 A                            ~~~~

@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def circuit_plot(cmap,protid,numbering,cutoff_numcontacts,fileformat='jpeg'):
+    plt.ion()
     nseg = len(cmap)
     segment = list(range(0,nseg))  
     ax = plt.subplots()[1]
@@ -28,6 +29,4 @@ def circuit_plot(cmap,protid,numbering,cutoff_numcontacts,fileformat='jpeg'):
                 color ='k',
                 linewidth = np.log(cmap[i][j]+1))
     
-    plt.savefig('results/circuit_diagram/' + protid + '_cmap.'+ fileformat)
-
     return np.array(sitelist)

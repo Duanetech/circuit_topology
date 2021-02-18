@@ -1,0 +1,32 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    GTENLYFQSMQVAFSFILDNIVTQKMMAVPDSWPFHHPVNKKFVPDYYKM   50          ~~~~
+STR        HHHHHHHHHHHHHHHHHHHHHHHHGGGTTTTGGG    TTTTTHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   IVNPVDLETIRKNISKHKYQSRESFLDDVNLILANSVKYNGPESQYTKTA  100          ~~~~
+STR       TTTT  HHHHHHHHHHTTTT HHHHHHHHHHHHHHHHHHHTTTTHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .                                   ~~~~
+SEQ  101  QEIVNICYQTITEYDEHLTQLEKDICTAKEAALEEAELE             139          ~~~~
+STR       HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH                           ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   THR  1514 A      LYS   1537 A                            ~~~~
+LOC  AlphaHelix   PRO  1557 A      MET   1562 A                            ~~~~
+LOC  AlphaHelix   LEU  1569 A      LYS   1578 A                            ~~~~
+LOC  AlphaHelix   ARG  1584 A      ASN   1602 A                            ~~~~
+LOC  AlphaHelix   GLN  1607 A      LEU   1650 A                            ~~~~
+LOC  310Helix     MET  1538 A      ALA   1540 A                            ~~~~
+LOC  310Helix     TRP  1545 A      PHE   1547 A                            ~~~~
+LOC  TurnII       VAL  1541 A      SER   1544 A                            ~~~~
+LOC  TurnI        ASN  1552 A      PHE   1555 A                            ~~~~
+LOC  TurnI        LYS  1553 A      VAL   1556 A                            ~~~~
+LOC  TurnIV       LYS  1554 A      PRO   1557 A                            ~~~~
+LOC  TurnIV       ILE  1563 A      PRO   1566 A                            ~~~~
+LOC  TurnVIII     HIS  1579 A      GLN   1582 A                            ~~~~
+LOC  TurnI        GLY  1603 A      SER   1606 A                            ~~~~

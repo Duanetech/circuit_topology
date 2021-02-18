@@ -1,0 +1,26 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    PDSPTLLDLFAEDIGHANQLLQLVDEEFQALERRELPVLQQLLGAKQPLQ   50          ~~~~
+STR          HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH  HHHHHHHHHHHHTTH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   QLERNGRARAEILREAGVSLDREGLARYARERADGAELLARGDELGELLE  100          ~~~~
+STR       HHHHHHHHHHHHHHHH     HHHHHHHHTTT HHHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .                                             ~~~~
+SEQ  101  RCQQANLRNGRIANQASTGSLLNILR                          126          ~~~~
+STR       HHHHHHHHHHHH  HHHHHHHHHHH                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   PRO     5 A      ARG     34 A                            ~~~~
+LOC  AlphaHelix   LEU    37 A      GLN     48 A                            ~~~~
+LOC  AlphaHelix   GLN    52 A      ALA     68 A                            ~~~~
+LOC  AlphaHelix   ARG    74 A      ALA     81 A                            ~~~~
+LOC  AlphaHelix   ASP    86 A      ILE    114 A                            ~~~~
+LOC  AlphaHelix   GLN   119 A      LEU    129 A                            ~~~~
+LOC  TurnIV       GLN    48 A      GLN     52 A                            ~~~~
+LOC  TurnI        ALA    81 A      ARG     84 A                            ~~~~

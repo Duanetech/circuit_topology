@@ -1,0 +1,152 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod C                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    DHLESLICKVGEKSACSLESNLEGLAGVLEADLPNYKSKILRLLCTVARL   50          ~~~~
+STR       HHHHHHHHHTTT     HHHHHHHHHHHHHHHTTTTHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   LPEKLTIYTTLVGLLNARNYNFGGEFVEAMIRQLKESLKANNYNEAVYLV  100          ~~~~
+STR       HGGGHHHHHHHHHHHHHH HHHHHHHHHHHHHHHHHHHHH  HHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  RFLSDLVNCHVIAAPSMVAMFENFVSVTQEEDVPQVRRDWYVYAFLSSLP  150          ~~~~
+STR       HHHHHHHHHTTBTHHHHHHHHHHHHHGGGTTTT HHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  151  WVGKELYEKKDAEMDRIFANTESYLKRRQKTHVPMLQVWTADKPHPQEEY  200          ~~~~
+STR       HHHHHHHHTTHHHHHHHHHHHHHHHHH  TTTGGG TTBT TTTTT EEH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  201  LDCLWAQIQKLKKDRWQERHILRPYLAFDSILCEALQHNLPPFTPPPHTE  250          ~~~~
+STR       HHHHHHHHHHHHHHTTT      GGGG HHHHHH   B          TT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  251  DSVYPMPRVIFRMFDYTDDPEGPVMPGSHSVERFVIEENLHCIIKSHWKE  300          ~~~~
+STR       TT      EE     GGGTTTT    TTTTHHHHHHHHHHHHHHHHHTTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  301  RKTCAAQLVSYPGKNKIPLNYHIVEVIFAELFQLPAPPHIDVMYTTLLIE  350          ~~~~
+STR       HHHHHHHHHH  TTTT  HHHHHHHHHHHHHHTTTTTTTTHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  351  LCKLQPGSLPQVLAQATEMLYMRLDTMNTTCVDRFINWFSHHLSNFQFRW  400          ~~~~
+STR       HHHHHTTTHHHHHHHHHHHHHHHTTTB HHHHHHHHHHHHHHHHTTTTT                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  401  SWEDWSDCLSQDPESPKPKFVREVLEKCMRLSYHQRILDIVPPTFSALCP  450          ~~~~
+STR        GGGGGGGTTTTTTTHHHHHHHHHHHHHHHH  HHHHHHH  GGGGGG                 ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  451  SNPTCIYKYGDESSNSLPGHSVALCLAVAFKSKATNDEIFSILKDVPNPS  500          ~~~~
+STR        TTT  TTTTTTTTTTTTTHHHHHHHHHHHHH   HHHHHHHHTTT                   ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  501  FNPLKIEVFVQTLLHLAAKSFSHSFSALAKFHEVFKTLAESDEGKLHVLR  550          ~~~~
+STR         HHHHHHHHHHHHHHTTTTHHHHHHHHHHHHHHHHHHH  HHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  551  VMFEVWRNHPQMIAVLVDKMIRTQIVDCAAVANWIFSSELSRDFTRLFVW  600          ~~~~
+STR       HHHHHHTTTHHHHHHHHHHHHHHTTTTHHHHHHHHH GGGTTTTTTHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  601  EILHSTIRKMNKHVGAQSEQKNLFLVIFQRFIMILTEHLVRCETDGTSVL  650          ~~~~
+STR       HHHHHHHHHHHHTTTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHH  TTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  651  TPWYKNCIERLQQIFLQHHQIIQQYMVTLENLLFTAELDPHILAVFQQFC  700          ~~~~
+STR       THHHHHHHHHHHHHHHHHHHHHH HHHHHHHHH TTTT HHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  701  ALQA                                                704          ~~~~
+STR       HH                                                               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   ASP    29 C      LYS     37 C                            ~~~~
+LOC  AlphaHelix   LEU    46 C      ASP     60 C                            ~~~~
+LOC  AlphaHelix   LYS    65 C      LEU     79 C                            ~~~~
+LOC  AlphaHelix   LEU    83 C      ARG     96 C                            ~~~~
+LOC  AlphaHelix   TYR    98 C      ALA    118 C                            ~~~~
+LOC  AlphaHelix   TYR   121 C      CYS    137 C                            ~~~~
+LOC  AlphaHelix   ALA   142 C      SER    154 C                            ~~~~
+LOC  AlphaHelix   GLN   163 C      GLU    186 C                            ~~~~
+LOC  AlphaHelix   ASP   189 C      ARG    205 C                            ~~~~
+LOC  AlphaHelix   TYR   228 C      ASP    242 C                            ~~~~
+LOC  AlphaHelix   ASP   257 C      GLU    262 C                            ~~~~
+LOC  AlphaHelix   VAL   309 C      HIS    325 C                            ~~~~
+LOC  AlphaHelix   ARG   329 C      SER    338 C                            ~~~~
+LOC  AlphaHelix   LEU   347 C      PHE    360 C                            ~~~~
+LOC  AlphaHelix   ASP   369 C      GLN    383 C                            ~~~~
+LOC  AlphaHelix   LEU   387 C      ARG    401 C                            ~~~~
+LOC  AlphaHelix   THR   407 C      SER    422 C                            ~~~~
+LOC  AlphaHelix   PRO   444 C      LEU    459 C                            ~~~~
+LOC  AlphaHelix   HIS   462 C      ILE    468 C                            ~~~~
+LOC  AlphaHelix   HIS   498 C      SER    510 C                            ~~~~
+LOC  AlphaHelix   ASN   514 C      LEU    521 C                            ~~~~
+LOC  AlphaHelix   PRO   541 C      LEU    554 C                            ~~~~
+LOC  AlphaHelix   PHE   559 C      ALA    577 C                            ~~~~
+LOC  AlphaHelix   ASP   580 C      TRP    594 C                            ~~~~
+LOC  AlphaHelix   PRO   598 C      THR    611 C                            ~~~~
+LOC  AlphaHelix   CYS   616 C      PHE    624 C                            ~~~~
+LOC  AlphaHelix   LEU   635 C      LYS    650 C                            ~~~~
+LOC  AlphaHelix   GLN   703 C      ASP    731 C                            ~~~~
+LOC  AlphaHelix   PRO   738 C      GLN    759 C                            ~~~~
+LOC  AlphaHelix   TYR   761 C      LEU    769 C                            ~~~~
+LOC  AlphaHelix   PRO   776 C      LEU    788 C                            ~~~~
+LOC  310Helix     PRO    80 C      LYS     82 C                            ~~~~
+LOC  310Helix     VAL   155 C      GLN    157 C                            ~~~~
+LOC  310Helix     VAL   211 C      MET    213 C                            ~~~~
+LOC  310Helix     PRO   252 C      ALA    255 C                            ~~~~
+LOC  310Helix     TYR   294 C      ASP    296 C                            ~~~~
+LOC  310Helix     TRP   430 C      CYS    436 C                            ~~~~
+LOC  310Helix     PRO   471 C      LEU    476 C                            ~~~~
+LOC  310Helix     SER   626 C      LEU    628 C                            ~~~~
+LOC  Strand       GLU   226 C      GLU    227 C                            ~~~~
+LOC  Strand       VAL   287 C      ILE    288 C                            ~~~~
+LOC  TurnII       LYS    37 C      GLU     40 C                            ~~~~
+LOC  TurnI        ASP    60 C      ASN     63 C                            ~~~~
+LOC  TurnI        LEU    61 C      TYR     64 C                            ~~~~
+LOC  TurnIV       PRO    62 C      LYS     65 C                            ~~~~
+LOC  TurnIV       HIS   138 C      ALA    141 C                            ~~~~
+LOC  TurnIV       GLU   158 C      VAL    161 C                            ~~~~
+LOC  TurnIV       GLU   186 C      ASP    189 C                            ~~~~
+LOC  TurnI        LYS   208 C      VAL    211 C                            ~~~~
+LOC  TurnVIII     GLN   215 C      THR    218 C                            ~~~~
+LOC  TurnVIb      ASP   220 C      HIS    223 C                            ~~~~
+LOC  TurnVIII     LYS   221 C      PRO    224 C                            ~~~~
+LOC  TurnIV       ASP   242 C      GLN    245 C                            ~~~~
+LOC  TurnI        THR   277 C      SER    280 C                            ~~~~
+LOC  TurnI        ASP   297 C      GLY    300 C                            ~~~~
+LOC  TurnI        GLY   305 C      SER    308 C                            ~~~~
+LOC  TurnI        HIS   325 C      GLU    328 C                            ~~~~
+LOC  TurnVIII     TRP   326 C      ARG    329 C                            ~~~~
+LOC  TurnVIII     GLY   341 C      LYS    344 C                            ~~~~
+LOC  TurnVIb      GLN   361 C      ALA    364 C                            ~~~~
+LOC  TurnVIII     LEU   362 C      PRO    365 C                            ~~~~
+LOC  TurnVIII     PRO   365 C      ILE    368 C                            ~~~~
+LOC  TurnI        GLN   383 C      SER    386 C                            ~~~~
+LOC  TurnIV       PRO   384 C      LEU    387 C                            ~~~~
+LOC  TurnIV       ARG   401 C      THR    404 C                            ~~~~
+LOC  TurnI        LEU   402 C      MET    405 C                            ~~~~
+LOC  TurnIV       SER   422 C      GLN    425 C                            ~~~~
+LOC  TurnI'       PHE   424 C      ARG    427 C                            ~~~~
+LOC  TurnI        CYS   436 C      GLN    439 C                            ~~~~
+LOC  TurnI        ASP   440 C      SER    443 C                            ~~~~
+LOC  TurnI        TYR   485 C      GLY    488 C                            ~~~~
+LOC  TurnIV       GLY   488 C      SER    491 C                            ~~~~
+LOC  TurnIV       SER   492 C      LEU    495 C                            ~~~~
+LOC  TurnII       LEU   495 C      HIS    498 C                            ~~~~
+LOC  TurnI        LEU   521 C      VAL    524 C                            ~~~~
+LOC  TurnIV       ALA   555 C      SER    558 C                            ~~~~
+LOC  TurnI        TRP   594 C      HIS    597 C                            ~~~~
+LOC  TurnIV       ARG   595 C      PRO    598 C                            ~~~~
+LOC  TurnIV       GLN   612 C      ASP    615 C                            ~~~~
+LOC  TurnI        LEU   628 C      ASP    631 C                            ~~~~
+LOC  TurnI        SER   629 C      PHE    632 C                            ~~~~
+LOC  TurnI        ASP   631 C      ARG    634 C                            ~~~~
+LOC  TurnII       HIS   651 C      ALA    702 C                            ~~~~
+LOC  TurnIV       SER   734 C      THR    737 C                            ~~~~
+LOC  TurnI        THR   771 C      LEU    774 C                            ~~~~
+LOC  GammaInv     ASN   480 C      THR    482 C                            ~~~~

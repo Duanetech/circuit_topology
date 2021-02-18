@@ -1,0 +1,52 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    MLDGPYQPTTFTPPNDYWILINSNTNGVVYESTNNSDFWTAVVAIEPHVN   50          ~~~~
+STR         EEEE  EEE  TTTEEEEEE     EEEEEETTTTTEEEEEEETTTEE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   PVDRQYTIFGESKQFNVSNDSNKWKFLEMFRSSSQNEFYNRRTLTSDTRL  100          ~~~~
+STR       EEEEEEEETTEEEEEEEEE    EEEEEEEE TTTT  EEEEEEEETTTE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  VGILKYGGRVWTFHGETPRATTDSSSTANLNNISITIHSEFYIIPRSQES  150          ~~~~
+STR       EEEEEETTEEEEEEEETTTTEEEEEETTTTTTTEEEE   EEEEEGGGHH               ~~~~
+REM                                                                        ~~~~
+REM                .                                                       ~~~~
+SEQ  151  KCNEYINNGL                                          160          ~~~~
+STR       HHHHHHHH                                                         ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   GLU   212 A      ASN    221 A                            ~~~~
+LOC  310Helix     ARG   209 A      GLN    211 A                            ~~~~
+LOC  Strand       ASP    66 A      TYR     69 A                            ~~~~
+LOC  Strand       THR    72 A      PHE     74 A                            ~~~~
+LOC  Strand       TYR    80 A      ASN     85 A                            ~~~~
+LOC  Strand       VAL    91 A      THR     96 A                            ~~~~
+LOC  Strand       TRP   102 A      ILE    108 A                            ~~~~
+LOC  Strand       VAL   112 A      ILE    121 A                            ~~~~
+LOC  Strand       GLU   124 A      ASN    132 A                            ~~~~
+LOC  Strand       TRP   137 A      ARG    144 A                            ~~~~
+LOC  Strand       TYR   152 A      SER    159 A                            ~~~~
+LOC  Strand       LEU   163 A      TYR    169 A                            ~~~~
+LOC  Strand       ARG   172 A      GLU    179 A                            ~~~~
+LOC  Strand       THR   184 A      SER    189 A                            ~~~~
+LOC  Strand       SER   197 A      ILE    200 A                            ~~~~
+LOC  Strand       PHE   204 A      PRO    208 A                            ~~~~
+LOC  TurnII       PRO    77 A      TYR     80 A                            ~~~~
+LOC  TurnIV       ASN    97 A      ASP    100 A                            ~~~~
+LOC  TurnIV       ASN    98 A      PHE    101 A                            ~~~~
+LOC  TurnIV       GLU   109 A      VAL    112 A                            ~~~~
+LOC  TurnIV       THR   120 A      GLY    123 A                            ~~~~
+LOC  TurnI'       ILE   121 A      GLU    124 A                            ~~~~
+LOC  TurnI        SER   146 A      ASN    149 A                            ~~~~
+LOC  TurnIV       SER   159 A      ARG    162 A                            ~~~~
+LOC  TurnI'       TYR   169 A      ARG    172 A                            ~~~~
+LOC  TurnVIa      GLU   179 A      ARG    182 A                            ~~~~
+LOC  TurnIV       THR   180 A      ALA    183 A                            ~~~~
+LOC  TurnIV       THR   190 A      LEU    193 A                            ~~~~
+LOC  TurnI        ASN   192 A      ASN    195 A                            ~~~~
+LOC  TurnI        LEU   193 A      ILE    196 A                            ~~~~

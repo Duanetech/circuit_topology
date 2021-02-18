@@ -1,0 +1,52 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    VEVTPIMTELDTQKVAGTWHTVAMAVSDVSLLDAKSSPLKAYVEGLKPTP   50          ~~~~
+STR                  GGG  EE EEEEEEEETTT  TTTTTGGGEEEEEEEEET               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   EGDLEILLQKRENDKCAQEVLLAKKTDIPAVFKINALDENQLFLLDTDYD  100          ~~~~
+STR       TTEEEEEEEEEETTEEEEEEEEEEETTTTTEEEEEETTEEEEEEEEETTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  SHLLLCMENSASPEHSLVCQSLARTLEVDDQIREKFEDALKTLSVPMRIL  150          ~~~~
+STR       TEEEEEEETTTTGGG  EEEEEETTT   HHHHHHHHHHHH     EEE                ~~~~
+REM                                                                        ~~~~
+REM                .                                                       ~~~~
+SEQ  151  PAQLEEQCRV                                          160          ~~~~
+STR         TTTTTTT                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   ASP   130 A      LYS    141 A                            ~~~~
+LOC  310Helix     THR    12 A      LYS     14 A                            ~~~~
+LOC  310Helix     PRO    38 A      LYS     40 A                            ~~~~
+LOC  310Helix     PRO   113 A      HIS    115 A                            ~~~~
+LOC  Strand       GLY    17 A      THR     18 A                            ~~~~
+LOC  Strand       HIS    20 A      SER     27 A                            ~~~~
+LOC  Strand       ALA    41 A      THR     49 A                            ~~~~
+LOC  Strand       ASP    53 A      GLU     62 A                            ~~~~
+LOC  Strand       LYS    65 A      LYS     75 A                            ~~~~
+LOC  Strand       VAL    81 A      ALA     86 A                            ~~~~
+LOC  Strand       GLU    89 A      THR     97 A                            ~~~~
+LOC  Strand       HIS   102 A      GLU    108 A                            ~~~~
+LOC  Strand       VAL   118 A      ALA    123 A                            ~~~~
+LOC  Strand       MET   147 A      ILE    149 A                            ~~~~
+LOC  TurnVIII     SER    27 A      SER     30 A                            ~~~~
+LOC  TurnIV       ASP    33 A      SER     36 A                            ~~~~
+LOC  TurnIV       ALA    34 A      SER     37 A                            ~~~~
+LOC  TurnI        THR    49 A      GLY     52 A                            ~~~~
+LOC  TurnIV       ARG    61 A      ASP     64 A                            ~~~~
+LOC  TurnIV       GLU    62 A      LYS     65 A                            ~~~~
+LOC  TurnVIII     THR    76 A      PRO     79 A                            ~~~~
+LOC  TurnII       ILE    78 A      VAL     81 A                            ~~~~
+LOC  TurnI'       ALA    86 A      GLU     89 A                            ~~~~
+LOC  TurnIV       THR    97 A      ASP    100 A                            ~~~~
+LOC  TurnIV       ASP    98 A      SER    101 A                            ~~~~
+LOC  TurnI        ASN   109 A      SER    112 A                            ~~~~
+LOC  TurnIV       SER   110 A      PRO    113 A                            ~~~~
+LOC  TurnIV       ALA   123 A      LEU    126 A                            ~~~~
+LOC  TurnVIII     GLN   153 A      GLU    156 A                            ~~~~
+LOC  TurnII       GLU   156 A      ARG    159 A                            ~~~~

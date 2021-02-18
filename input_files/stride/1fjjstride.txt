@@ -1,0 +1,52 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    AKLISNDLRDGDKLPHRHVFNGGYDGDNISPHLAWDDVPAGTKSFVVTCY   50          ~~~~
+STR        EEETTTTTTTT   GGGB TTTTT       EEEE  TTTT EEEEEEE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   DPDAPTGSGWWHWVVVNLPADTRVLPQGFGSGLVAPDGVLQTRTDFGKTG  100          ~~~~
+STR       ETTTTTTTTEEEEEEEEETTTT EETTTTTTT   TTTTEE EETTTEE                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  YDGAAPPKGETHRYIFTVHALDIERIDVDEGASGAVGFNVHFHSLASASI  150          ~~~~
+STR          B  TTTT EEEEEEEEEE    TTTTTTTTTTHHHHHHHHEEEEEEE               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  TAFS                                                154          ~~~~
+STR       EEE                                                              ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   VAL   139 A      HIS    146 A                            ~~~~
+LOC  310Helix     HIS    16 A      HIS     18 A                            ~~~~
+LOC  Strand       LYS     2 A      ILE      4 A                            ~~~~
+LOC  Strand       LEU    34 A      ASP     37 A                            ~~~~
+LOC  Strand       SER    45 A      ASP     52 A                            ~~~~
+LOC  Strand       TRP    61 A      LEU     69 A                            ~~~~
+LOC  Strand       VAL    75 A      LEU     76 A                            ~~~~
+LOC  Strand       LEU    92 A      GLN     93 A                            ~~~~
+LOC  Strand       ARG    95 A      THR     96 A                            ~~~~
+LOC  Strand       LYS   100 A      THR    101 A                            ~~~~
+LOC  Strand       HIS   114 A      LEU    123 A                            ~~~~
+LOC  Strand       SER   147 A      PHE    157 A                            ~~~~
+LOC  TurnI        SER     5 A      LEU      8 A                            ~~~~
+LOC  TurnII       ARG     9 A      ASP     12 A                            ~~~~
+LOC  TurnIV       ASN    21 A      TYR     25 A                            ~~~~
+LOC  TurnIV       GLY    22 A      ASP     26 A                            ~~~~
+LOC  TurnII       PRO    40 A      THR     43 A                            ~~~~
+LOC  TurnI        ASP    52 A      ALA     55 A                            ~~~~
+LOC  TurnIV       THR    57 A      GLY     60 A                            ~~~~
+LOC  TurnI        PRO    70 A      THR     73 A                            ~~~~
+LOC  TurnII       PRO    77 A      PHE     80 A                            ~~~~
+LOC  TurnI        GLY    79 A      SER     82 A                            ~~~~
+LOC  TurnIV       PHE    80 A      GLY     83 A                            ~~~~
+LOC  TurnII       PRO    88 A      VAL     91 A                            ~~~~
+LOC  TurnI        THR    96 A      GLY     99 A                            ~~~~
+LOC  TurnII       PRO   109 A      GLU    112 A                            ~~~~
+LOC  TurnI        ASP   131 A      ALA    134 A                            ~~~~
+LOC  TurnIV       SER   135 A      VAL    139 A                            ~~~~
+LOC  GammaInv     ALA    55 A      THR     57 A                            ~~~~
+LOC  GammaInv     ILE   128 A      VAL    130 A                            ~~~~

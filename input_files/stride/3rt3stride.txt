@@ -1,0 +1,50 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod B                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    WDLTVKMLAGNEFQVSLSSSMSVSELKAQITQKIGVHAFQQRLAVHPSGV   50          ~~~~
+STR        EEEEETTTT EEEEE TTTTBHHHHHHHHHHHH   GGGEEEEEETTT                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   ALQDRVPLASQGLGPGSTVLLVVDKSDEPLSILVRNNKGRSSTYEVRLTQ  100          ~~~~
+STR       B TTTTBGGG   TTTTEEEEEE      EEEEEETTTT EEEEEETTTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  TVAHLKQQVSGLEGVQDDLFWLTFEGKPLEDQLPLGEYGLKPLSTVFMNL  150          ~~~~
+STR       BHHHHHHHHHHHH  TTTTEEEEETTEE TTTTBGGGG  TTTTEEEEEE               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  RLR                                                 153          ~~~~
+STR                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   VAL    25 B      ILE     36 B                            ~~~~
+LOC  AlphaHelix   VAL   104 B      GLU    115 B                            ~~~~
+LOC  310Helix     ALA    40 B      GLN     42 B                            ~~~~
+LOC  310Helix     LEU    60 B      SER     62 B                            ~~~~
+LOC  310Helix     LEU   137 B      TYR    140 B                            ~~~~
+LOC  Strand       ASP     4 B      LYS      8 B                            ~~~~
+LOC  Strand       GLU    14 B      SER     18 B                            ~~~~
+LOC  Strand       GLN    43 B      HIS     48 B                            ~~~~
+LOC  Strand       THR    70 B      VAL     75 B                            ~~~~
+LOC  Strand       LEU    82 B      ARG     87 B                            ~~~~
+LOC  Strand       SER    93 B      VAL     98 B                            ~~~~
+LOC  Strand       PHE   122 B      PHE    126 B                            ~~~~
+LOC  Strand       LYS   129 B      PRO    130 B                            ~~~~
+LOC  Strand       THR   147 B      LEU    152 B                            ~~~~
+LOC  TurnI        MET     9 B      GLY     12 B                            ~~~~
+LOC  TurnI        SER    20 B      MET     23 B                            ~~~~
+LOC  TurnVIa      VAL    47 B      SER     50 B                            ~~~~
+LOC  TurnIV       HIS    48 B      GLY     51 B                            ~~~~
+LOC  TurnI        GLN    55 B      VAL     58 B                            ~~~~
+LOC  TurnII       GLY    66 B      SER     69 B                            ~~~~
+LOC  TurnI        ASN    88 B      GLY     91 B                            ~~~~
+LOC  TurnI        ARG    99 B      GLN    102 B                            ~~~~
+LOC  TurnI        GLN   118 B      LEU    121 B                            ~~~~
+LOC  TurnI        ASP   119 B      PHE    122 B                            ~~~~
+LOC  TurnIV       THR   125 B      GLY    128 B                            ~~~~
+LOC  TurnI'       PHE   126 B      LYS    129 B                            ~~~~
+LOC  TurnI        GLU   132 B      LEU    135 B                            ~~~~
+LOC  TurnII       LYS   143 B      SER    146 B                            ~~~~

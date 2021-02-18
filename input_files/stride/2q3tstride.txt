@@ -1,0 +1,29 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    GSLLRRAEMYQDYMKQVPIPTNRGSLIPFTSWVGLSISMKQLYGQPLHYL   50          ~~~~
+STR       TTTHHHHHHHHHHHHH               HHHHHHHHHHHH     HH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   TNVLLQRWDQSRFGTDSEEQRLDSIIHPTKAEATIWLVEEIHRLTPSHLH  100          ~~~~
+STR       HHHHHHHHHHHTTTT      GGGTTTHHHHHHHHHHHHHHHHHH  HHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .                                             ~~~~
+SEQ  101  MALLWRSDPMYHSFIDPIFPE                               121          ~~~~
+STR       HHHHHHHTTTGGGG                                                   ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   LEU    39 A      GLN     51 A                            ~~~~
+LOC  AlphaHelix   TRP    67 A      TYR     78 A                            ~~~~
+LOC  AlphaHelix   TYR    84 A      SER     96 A                            ~~~~
+LOC  AlphaHelix   PRO   113 A      THR    130 A                            ~~~~
+LOC  AlphaHelix   HIS   133 A      SER    142 A                            ~~~~
+LOC  310Helix     LEU   107 A      SER    109 A                            ~~~~
+LOC  310Helix     TYR   146 A      PHE    149 A                            ~~~~
+LOC  TurnII       GLY    36 A      LEU     39 A                            ~~~~
+LOC  TurnII       ARG    97 A      THR    100 A                            ~~~~
+LOC  TurnVIII     SER   109 A      HIS    112 A                            ~~~~
+LOC  TurnI        ASP   143 A      TYR    146 A                            ~~~~

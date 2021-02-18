@@ -1,0 +1,35 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod F                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    DGQFCHKPCPPGERKARDCTVNGDEPDCVPCQEGKEYTDKAHFSSKCRRC   50          ~~~~
+STR        TTTT   BTTTEEETTT TTTT    EEE TTTTEE    B     EE                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   RLCDEGHGLEVEINCTRTQNTKCRCKPNFFCNSTVCEHCDPCTCTLTSNT  100          ~~~~
+STR           GGG EEEEET BTTB  EEEETTTEE  TTTTTTTEE   BTTB                 ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  310Helix     GLU    93 F      HIS     95 F                            ~~~~
+LOC  Strand       GLU    51 F      LYS     53 F                            ~~~~
+LOC  Strand       CYS    66 F      PRO     68 F                            ~~~~
+LOC  Strand       GLU    74 F      TYR     75 F                            ~~~~
+LOC  Strand       ARG    86 F      ARG     87 F                            ~~~~
+LOC  Strand       LEU    97 F      ILE    101 F                            ~~~~
+LOC  Strand       LYS   110 F      CYS    113 F                            ~~~~
+LOC  Strand       PHE   117 F      PHE    118 F                            ~~~~
+LOC  Strand       ASP   128 F      PRO    129 F                            ~~~~
+LOC  TurnI        GLY    40 F      CYS     43 F                            ~~~~
+LOC  TurnII       PRO    48 F      GLU     51 F                            ~~~~
+LOC  TurnIV       LYS    53 F      ASP     56 F                            ~~~~
+LOC  TurnI        THR    58 F      GLY     61 F                            ~~~~
+LOC  TurnII       GLN    70 F      LYS     73 F                            ~~~~
+LOC  TurnIV       GLU    71 F      GLU     74 F                            ~~~~
+LOC  TurnVIII     VAL    99 F      ASN    102 F                            ~~~~
+LOC  TurnI        THR   104 F      GLN    107 F                            ~~~~
+LOC  TurnII       LYS   114 F      PHE    117 F                            ~~~~
+LOC  TurnVIII     SER   121 F      CYS    124 F                            ~~~~
+LOC  TurnIV       CYS   124 F      CYS    127 F                            ~~~~
+LOC  TurnI        THR   142 F      SER    145 F                            ~~~~

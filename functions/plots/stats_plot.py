@@ -9,4 +9,4 @@ def stats_plot(entangled,psc,protid,fileformat='jpeg'):
     ax1.set_ylabel('Fraction entangled')
     fig.suptitle(protid)
     ax2.legend(['Paralell','Series','Cross'],bbox_to_anchor=(.5, -0.5, 0.5, 0.5) )
-    plt.savefig('results/statistics/' +protid + '_ctstats.'+fileformat)
+

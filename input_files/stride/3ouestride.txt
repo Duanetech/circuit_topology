@@ -1,0 +1,62 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    MTPPKTVNFKMKGVADAAFSHEFHLGMYKCNECHTKLFAYKAGAKRFTMA   50          ~~~~
+STR             EEE TTTT  EEE HHHHHH   GGGTTTTTT          HH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   DMDKGKSCGACHNGKDAFSSASDCGKCHPGLKPAKLTYKTSVGEAYFDHD  100          ~~~~
+STR       HHHH  GGGGTBTTTTBTTTTT GGGTTGGG   EEEEEETTEEEEEEHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  IHLSMFKCADCHTKVFKYRKGSAPATMADMEKGKSCGVCHNGKDAFSVAD  150          ~~~~
+STR       HHHTTT GGGTTTTTT  TTTTTT  HHHHHH  GGGGTBTTTTBTTTTT               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  DCVKCHNM                                            158          ~~~~
+STR        GGG EE                                                          ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   HIS   181 A      GLY    186 A                            ~~~~
+LOC  AlphaHelix   MET   209 A      LYS    214 A                            ~~~~
+LOC  AlphaHelix   HIS   259 A      LEU    263 A                            ~~~~
+LOC  AlphaHelix   MET   287 A      LYS    292 A                            ~~~~
+LOC  310Helix     CYS   190 A      GLU    192 A                            ~~~~
+LOC  310Helix     SER   217 A      ALA    220 A                            ~~~~
+LOC  310Helix     CYS   234 A      LYS    236 A                            ~~~~
+LOC  310Helix     PRO   239 A      LEU    241 A                            ~~~~
+LOC  310Helix     CYS   268 A      ASP    270 A                            ~~~~
+LOC  310Helix     SER   295 A      VAL    298 A                            ~~~~
+LOC  310Helix     CYS   312 A      LYS    314 A                            ~~~~
+LOC  Strand       VAL   167 A      PHE    169 A                            ~~~~
+LOC  Strand       ALA   177 A      PHE    179 A                            ~~~~
+LOC  Strand       LYS   245 A      THR    250 A                            ~~~~
+LOC  Strand       GLY   253 A      ASP    258 A                            ~~~~
+LOC  Strand       HIS   316 A      ASN    317 A                            ~~~~
+LOC  TurnII       MET   171 A      VAL    174 A                            ~~~~
+LOC  TurnIV       CYS   193 A      LYS    196 A                            ~~~~
+LOC  TurnIV       HIS   194 A      LEU    197 A                            ~~~~
+LOC  TurnI        THR   195 A      PHE    198 A                            ~~~~
+LOC  TurnIV       ALA   220 A      ASN    223 A                            ~~~~
+LOC  TurnIV       ASN   223 A      ASP    226 A                            ~~~~
+LOC  TurnIV       GLY   224 A      ALA    227 A                            ~~~~
+LOC  TurnVIII     LYS   225 A      PHE    228 A                            ~~~~
+LOC  TurnI        SER   229 A      SER    232 A                            ~~~~
+LOC  TurnIV       LYS   236 A      PRO    239 A                            ~~~~
+LOC  TurnI        THR   250 A      GLY    253 A                            ~~~~
+LOC  TurnI        LEU   263 A      PHE    266 A                            ~~~~
+LOC  TurnVIa      CYS   271 A      LYS    274 A                            ~~~~
+LOC  TurnIV       HIS   272 A      VAL    275 A                            ~~~~
+LOC  TurnIV       THR   273 A      PHE    276 A                            ~~~~
+LOC  TurnII       ARG   279 A      SER    282 A                            ~~~~
+LOC  TurnIV       GLY   281 A      PRO    284 A                            ~~~~
+LOC  TurnIV       VAL   298 A      ASN    301 A                            ~~~~
+LOC  TurnIV       ASN   301 A      ASP    304 A                            ~~~~
+LOC  TurnIV       GLY   302 A      ALA    305 A                            ~~~~
+LOC  TurnIV       LYS   303 A      PHE    306 A                            ~~~~
+LOC  TurnIV       SER   307 A      ASP    310 A                            ~~~~
+LOC  GammaInv     CYS   221 A      ASN    223 A                            ~~~~
+LOC  GammaInv     CYS   299 A      ASN    301 A                            ~~~~

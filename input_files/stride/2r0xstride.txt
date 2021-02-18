@@ -1,0 +1,51 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    VEVSQFKDAAQLASAVHIVTTSGETGQHGFTASAVCSVTDSPPTLLVCIN   50          ~~~~
+STR         HHHHHHHTT  EE EEEEE TTTT EEEEETTEEEEETTTTEEEEEEE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   SNARAYEHFVKNRVLVNTLTAEQSSLSNIFASPLSQEERFSNASWTTLTT  100          ~~~~
+STR       TTT HHHHHHHH EEEEE BTTHHHHHHHH TTT HHHHHH      TTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  GSPLQDALINFDCEITEIKHVGTHDILICKIVDIHQSNAKNALVYRNRVY  150          ~~~~
+STR       T  TTTTTEEEEEEEEEEEEETTEEEEEEEEEEEEETTTT BEEEETTEE               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  HSV                                                 153          ~~~~
+STR       EE                                                               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   VAL     4 A      ALA     10 A                            ~~~~
+LOC  AlphaHelix   ALA    57 A      ASN     64 A                            ~~~~
+LOC  AlphaHelix   GLN    76 A      PHE     83 A                            ~~~~
+LOC  AlphaHelix   GLN    89 A      SER     94 A                            ~~~~
+LOC  Strand       SER    16 A      ALA     17 A                            ~~~~
+LOC  Strand       HIS    19 A      THR     23 A                            ~~~~
+LOC  Strand       HIS    30 A      ALA     34 A                            ~~~~
+LOC  Strand       VAL    37 A      THR     41 A                            ~~~~
+LOC  Strand       THR    46 A      ASN     52 A                            ~~~~
+LOC  Strand       VAL    66 A      THR     71 A                            ~~~~
+LOC  Strand       ILE   113 A      VAL    125 A                            ~~~~
+LOC  Strand       HIS   128 A      GLN    140 A                            ~~~~
+LOC  Strand       LEU   147 A      ARG    150 A                            ~~~~
+LOC  Strand       VAL   153 A      SER    156 A                            ~~~~
+LOC  TurnI        GLY    25 A      GLY     28 A                            ~~~~
+LOC  TurnIV       ALA    34 A      VAL     37 A                            ~~~~
+LOC  TurnIV       THR    41 A      PRO     44 A                            ~~~~
+LOC  TurnIV       ASP    42 A      PRO     45 A                            ~~~~
+LOC  TurnI        ASN    52 A      ALA     55 A                            ~~~~
+LOC  TurnI        THR    73 A      GLN     76 A                            ~~~~
+LOC  TurnIV       LEU   101 A      GLY    104 A                            ~~~~
+LOC  TurnII       LEU   108 A      ALA    111 A                            ~~~~
+LOC  TurnVIII     ALA   111 A      ASN    114 A                            ~~~~
+LOC  TurnII'      VAL   125 A      HIS    128 A                            ~~~~
+LOC  TurnIV       SER   141 A      LYS    144 A                            ~~~~
+LOC  TurnIV       TYR   149 A      ARG    152 A                            ~~~~
+LOC  TurnI'       ARG   150 A      VAL    153 A                            ~~~~
+LOC  GammaClassic  ALA    10 A      GLN     13 A                           ~~~~
+LOC  GammaInv     SER    85 A      LEU     87 A                            ~~~~

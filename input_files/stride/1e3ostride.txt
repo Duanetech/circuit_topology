@@ -1,0 +1,26 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod C                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    EEPSDLEELEQFAKTFKQRRIKLGFTQGDVGLAMGKLYGNDFSQTTISRF   50          ~~~~
+STR            HHHHHHHHHHHHHHHHHH   HHHHHHHHHHHH     HHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   EALNLSFKNMSKLKPLLEKWLNDAEKRTSIETNIRVALEKSFMENQKPTS  100          ~~~~
+STR       HH    HHHHHHHHHHHHHHHHHHH      HHHHHHHHHHHHHTTTT H               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .                                   ~~~~
+SEQ  101  EDITLIAEQLNMEKEVIRVWFSNRRQKEKRIN                    132          ~~~~
+STR       HHHHHHHHHH   HHHHHHHHHHHHHHHH                                    ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   LEU     6 C      LEU     23 C                            ~~~~
+LOC  AlphaHelix   GLN    27 C      TYR     38 C                            ~~~~
+LOC  AlphaHelix   GLN    44 C      ALA     52 C                            ~~~~
+LOC  AlphaHelix   PHE    57 C      GLU     75 C                            ~~~~
+LOC  AlphaHelix   THR   110 C      GLU    122 C                            ~~~~
+LOC  AlphaHelix   SER   128 C      LEU    138 C                            ~~~~
+LOC  AlphaHelix   LYS   142 C      LYS    157 C                            ~~~~
+LOC  TurnIV       ASN   123 C      PRO    126 C                            ~~~~

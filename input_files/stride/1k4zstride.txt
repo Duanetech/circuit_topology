@@ -1,0 +1,54 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    MPPRKELVGNKWFIENYENETESLVIDANKDESIFIGKCSQVLVQIKGKV   50          ~~~~
+STR          EEEEETTEEEEEEEETT   EEEE TTTTEEEEEEEETT EEEE                  ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   NAISLSETESCSVVLDSSISGMDVIKSNKFGIQVNHSLPQISIDKSDGGN  100          ~~~~
+STR         EEEEEEETTEEEEEETTTTEEEEEEEEEEEEEEEE   EEEETTEEEE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  IYLSKESLNTEIYTSCSTAINVNLPIGEDDDYVEFPIPEQMKHSFADGKF  150          ~~~~
+STR       EE  GGGTTT   TTTT   EEEE  TTTTT EEEE    EEEEEETTEE               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  KSAVFEH                                             157          ~~~~
+STR       EEEE                                                             ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  310Helix     LYS  1472 A      SER   1474 A                            ~~~~
+LOC  Strand       ARG  1371 A      VAL   1375 A                            ~~~~
+LOC  Strand       LYS  1378 A      GLU   1385 A                            ~~~~
+LOC  Strand       LEU  1391 A      ASP   1394 A                            ~~~~
+LOC  Strand       SER  1400 A      SER   1407 A                            ~~~~
+LOC  Strand       VAL  1411 A      LYS   1414 A                            ~~~~
+LOC  Strand       ILE  1420 A      GLU   1426 A                            ~~~~
+LOC  Strand       SER  1429 A      SER   1434 A                            ~~~~
+LOC  Strand       MET  1439 A      SER   1454 A                            ~~~~
+LOC  Strand       ILE  1458 A      ASP   1461 A                            ~~~~
+LOC  Strand       ASP  1464 A      TYR   1469 A                            ~~~~
+LOC  Strand       ASN  1488 A      LEU   1491 A                            ~~~~
+LOC  Strand       VAL  1500 A      PRO   1503 A                            ~~~~
+LOC  Strand       MET  1508 A      ALA   1513 A                            ~~~~
+LOC  Strand       LYS  1516 A      VAL   1521 A                            ~~~~
+LOC  TurnIV       LEU  1374 A      ASN   1377 A                            ~~~~
+LOC  TurnII'      VAL  1375 A      LYS   1378 A                            ~~~~
+LOC  TurnIV       TYR  1384 A      GLU   1387 A                            ~~~~
+LOC  TurnI        ASN  1396 A      GLU   1399 A                            ~~~~
+LOC  TurnIV       CYS  1406 A      VAL   1409 A                            ~~~~
+LOC  TurnIV       THR  1425 A      CYS   1428 A                            ~~~~
+LOC  TurnI        SER  1435 A      GLY   1438 A                            ~~~~
+LOC  TurnIV       VAL  1441 A      SER   1444 A                            ~~~~
+LOC  TurnIV       SER  1444 A      PHE   1447 A                            ~~~~
+LOC  TurnIV       VAL  1451 A      SER   1454 A                            ~~~~
+LOC  TurnIV       ILE  1460 A      SER   1463 A                            ~~~~
+LOC  TurnI        SER  1474 A      THR   1477 A                            ~~~~
+LOC  TurnIV       THR  1481 A      SER   1484 A                            ~~~~
+LOC  TurnII       GLY  1494 A      ASP   1497 A                            ~~~~
+LOC  TurnI'       GLU  1495 A      ASP   1498 A                            ~~~~
+LOC  TurnIV       PHE  1512 A      GLY   1515 A                            ~~~~
+LOC  TurnI'       ALA  1513 A      LYS   1516 A                            ~~~~

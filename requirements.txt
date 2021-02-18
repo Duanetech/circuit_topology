@@ -1,0 +1,4 @@
+scipy
+biopython
+numpy
+salilab dssp

@@ -1,0 +1,39 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    KDYDAYLSYTKVDTGEEERFALEILPDLEKHYGYKLFIPDRDLIPTGTYI   50          ~~~~
+STR         B EEEE        HHHHHHHTTHHHHHH    EE HHHH     HHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   EDVARCVDQSKRLIIVTPNYVVRRGWSIFELETRLRNLVTGEIKVILIEC  100          ~~~~
+STR       HHHHHHHHHB EEEE  HHHHHH  HHHHHH HHHHGGG TTTEEEEEE                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .                         ~~~~
+SEQ  101  SELRGINYQEVEALKHTIKLLTVIKWHGPKCNKLNSKFWKRLQYEPF     147          ~~~~
+STR          TTTHHHHHHHHHH TTTEEEEE   GGGGTTTTHHHHHHHHH                    ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   GLU   426 A      GLU    432 A                            ~~~~
+LOC  AlphaHelix   PRO   435 A      HIS    441 A                            ~~~~
+LOC  AlphaHelix   PRO   449 A      ASP    452 A                            ~~~~
+LOC  AlphaHelix   THR   458 A      GLN    469 A                            ~~~~
+LOC  AlphaHelix   PRO   479 A      ARG    484 A                            ~~~~
+LOC  AlphaHelix   TRP   487 A      LEU    492 A                            ~~~~
+LOC  AlphaHelix   THR   494 A      ARG    497 A                            ~~~~
+LOC  AlphaHelix   ASN   520 A      HIS    529 A                            ~~~~
+LOC  AlphaHelix   LYS   550 A      GLU    558 A                            ~~~~
+LOC  310Helix     ASN   498 A      VAL    501 A                            ~~~~
+LOC  310Helix     PRO   542 A      ASN    545 A                            ~~~~
+LOC  Strand       ALA   407 A      SER    410 A                            ~~~~
+LOC  Strand       LEU   446 A      PHE    447 A                            ~~~~
+LOC  Strand       ARG   472 A      ILE    475 A                            ~~~~
+LOC  Strand       LYS   506 A      GLU    511 A                            ~~~~
+LOC  Strand       LEU   534 A      LYS    538 A                            ~~~~
+LOC  TurnIV       GLU   432 A      PRO    435 A                            ~~~~
+LOC  TurnVIII     GLY   503 A      LYS    506 A                            ~~~~
+LOC  TurnIV       ARG   516 A      ASN    520 A                            ~~~~
+LOC  TurnVIII     ILE   531 A      LEU    534 A                            ~~~~
+LOC  TurnIV       LYS   546 A      SER    549 A                            ~~~~

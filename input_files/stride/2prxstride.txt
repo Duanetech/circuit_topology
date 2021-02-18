@@ -1,0 +1,34 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    FQDAYSHCYGLKSYWRGEQTIAHFPKPFHTAIPGFVYGGLIASLIDCHGT   50          ~~~~
+STR        GGG       EEEEETTEEEEEE TTTTBTTTTTB HHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   GSASAAAQPRFVTAALNIDYLAPTPGVELELVGEIKEVRKVVVEIALSAL  100          ~~~~
+STR       HHHHHHHH   EEEEEEEEE        EEEEEEEEETTEEEEEEEEETT               ~~~~
+REM                                                                        ~~~~
+REM                .                                                       ~~~~
+SEQ  101  CARGHVAVKP                                          110          ~~~~
+STR       TEEEEEEE                                                         ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   GLY    58 A      GLN     78 A                            ~~~~
+LOC  310Helix     GLN     7 A      ALA      9 A                            ~~~~
+LOC  Strand       LYS    31 A      ARG     35 A                            ~~~~
+LOC  Strand       GLN    38 A      PHE     43 A                            ~~~~
+LOC  Strand       VAL    95 A      TYR    103 A                            ~~~~
+LOC  Strand       LEU   113 A      GLU    121 A                            ~~~~
+LOC  Strand       LYS   126 A      SER    134 A                            ~~~~
+LOC  Strand       ALA   141 A      VAL    148 A                            ~~~~
+LOC  TurnII'      ARG    35 A      GLN     38 A                            ~~~~
+LOC  TurnI        LYS    46 A      HIS     49 A                            ~~~~
+LOC  TurnIV       THR    50 A      PRO     53 A                            ~~~~
+LOC  TurnII       ILE    52 A      PHE     55 A                            ~~~~
+LOC  TurnVIII     THR    96 A      LEU     99 A                            ~~~~
+LOC  TurnIV       VAL   122 A      VAL    127 A                            ~~~~
+LOC  TurnIV       LEU   133 A      LEU    139 A                            ~~~~
+LOC  TurnIV       SER   134 A      CYS    140 A                            ~~~~

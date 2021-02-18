@@ -1,0 +1,27 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    SSGLVPRGSHMNLKQIAKDTAKTLQSYLTYQALRTVLAQLGETNPPLALW   50          ~~~~
+STR        TTTT     TTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH HHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   LHNFSAGKVQDGEKYIEELFLEKPDLALRIMTVREHIAEEIAEFLPEMVV  100          ~~~~
+STR       HHHHHTTTTTTHHHHHHHHHHH HHHHHHHHHHHHHHHHHHH HHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .                                                       ~~~~
+SEQ  101  TGIQQANMEKRRQHL                                     115          ~~~~
+STR       HHHHHHHHHHHHHH                                                   ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   LEU     3 A      THR     33 A                            ~~~~
+LOC  AlphaHelix   PRO    35 A      SER     45 A                            ~~~~
+LOC  AlphaHelix   GLY    52 A      GLU     62 A                            ~~~~
+LOC  AlphaHelix   PRO    64 A      ALA     82 A                            ~~~~
+LOC  AlphaHelix   PHE    84 A      HIS    104 A                            ~~~~
+LOC  TurnI        SER    -8 A      VAL     -5 A                            ~~~~
+LOC  TurnII       SER    45 A      LYS     48 A                            ~~~~
+LOC  TurnVIII     VAL    49 A      GLY     52 A                            ~~~~
+LOC  GammaInv     MET     1 A      LEU      3 A                            ~~~~

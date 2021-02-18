@@ -1,0 +1,38 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    FSNEDIYDNIDPDTISFPPKIATTDLFLPLFFHFGSTRQFMDKLHEVISG   50          ~~~~
+STR        GGGGGGG   GGG TTTTTTTTTTTB GGGGG   HHHHHHHHHHHHH                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   DYEPSQAEKLVQDLCDETGIRKNFSTSILTCLSGDLMVFPRYFLNMFKDN  100          ~~~~
+STR         TTTHHHHHHHHHHHHH B HHHHHHHHHHHTTTGGGHHHHHHHHHHH                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .                         ~~~~
+SEQ  101  VNPPPNVPGIWTHDDDESLKSNDQEQIRKLVKKHGTGRMEMRKRFFEK    148          ~~~~
+STR       TTTTTTTTTT  HHHHHHH    HHHHHHHHHHH HHHHHHHHHHHH                  ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   THR   713 A      SER    725 A                            ~~~~
+LOC  AlphaHelix   GLN   732 A      THR    744 A                            ~~~~
+LOC  AlphaHelix   LYS   748 A      LEU    758 A                            ~~~~
+LOC  AlphaHelix   PHE   765 A      ASP    775 A                            ~~~~
+LOC  AlphaHelix   HIS   789 A      LEU    795 A                            ~~~~
+LOC  AlphaHelix   GLN   800 A      HIS    810 A                            ~~~~
+LOC  AlphaHelix   THR   812 A      GLU    823 A                            ~~~~
+LOC  310Helix     SER   678 A      ASP    684 A                            ~~~~
+LOC  310Helix     PRO   688 A      THR    690 A                            ~~~~
+LOC  310Helix     PRO   705 A      HIS    709 A                            ~~~~
+LOC  310Helix     LEU   762 A      VAL    764 A                            ~~~~
+LOC  TurnIV       SER   692 A      PRO    695 A                            ~~~~
+LOC  TurnI        PRO   695 A      ALA    698 A                            ~~~~
+LOC  TurnI        THR   699 A      LEU    702 A                            ~~~~
+LOC  TurnIV       THR   700 A      PHE    703 A                            ~~~~
+LOC  TurnI        GLU   729 A      GLN    732 A                            ~~~~
+LOC  TurnI'       LEU   758 A      ASP    761 A                            ~~~~
+LOC  TurnIV       VAL   777 A      PRO    780 A                            ~~~~
+LOC  TurnIV       PRO   780 A      VAL    783 A                            ~~~~
+LOC  TurnII       VAL   783 A      ILE    786 A                            ~~~~

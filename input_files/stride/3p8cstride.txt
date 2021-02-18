@@ -1,0 +1,228 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    VTLEDALSNVDLLEELPLARYIEQATVHSSMNEMLEEGQEYAVMLYTWRS   50          ~~~~
+STR         HHHHHHHHHHHH     HHHHHHHHHHHHHHHHHHHHHHHHHHHH                  ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   CSRAIPQVKCNEQPNRVEIYEKTVEVLEPEVTKLMNFMYFQRNAIERFCG  100          ~~~~
+STR        GGG     TTTT HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  EVRRLCHAERRKDFVSEAYLITLGKFINMFAVLDELKNMKCSVKNDHSAY  150          ~~~~
+STR       HHHHH TTTGGG    HHHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  151  KRAAQFLRKMADPQSIQESQNLSMFLANHNKITQSLQQQLEVISGYEELL  200          ~~~~
+STR       HHHHHH      HHHHHHHHHHHHHHHTTTHHHHHHHHHHHHTTTHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  201  ADIVNLCVDYYENRMYLTPSEKHMLLKVMGFGLYLMDGSVSNIYKLDAKK  250          ~~~~
+STR       HHHHHHHHHHHHH     HHHHHHHHHHHHHHHHHH TTTT HHHHHHHT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  251  RINLSKIDKYFKQLQVVPLFGDMQIELARYIKTSAHYEENKSRWTCTSSI  300          ~~~~
+STR       TTTHHHHHHHHHH  EEEEETTEEEEHHHHHHHTTTTTTTGGGTTTTT H               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  301  CEQMIQIREDHMRFISELARYSAQKTDAEYRKLFDLALQGLQLLSQWSAH  350          ~~~~
+STR       HHHHHHHHHHHHHHHHHHHHH     HHHHHHHHHHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  351  VMEVYSWKLVHPTDKYSNKDCPDSAEEYERATRYNYTSEEKFALVEVIAM  400          ~~~~
+STR       HHHHHHHHHH   TTTTTTTTTTTT HHHHHHTTTT HHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  401  IKGLQVLMGRMESVFNHAIRHTVYAALQDFSQVTLREPLRQAIKKKKNVI  450          ~~~~
+STR       HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH HHHHHHHHHH   HHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  451  QSVLQAIRKTVCDWETGHEPFNDPALRGEKDPFDIKVPRRAVGPSSTQLY  500          ~~~~
+STR       HHHHHHHHHHH  TTTT  TTTTGGG                   HHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  501  MVRTMLESLIAKTLRSSLEGPTILDIEKFHRESFFYTHLINFSETLQQCC  550          ~~~~
+STR       HHHHHHHHHHH TTTTTT HHHHHHHHHHHHHH HHHHHHHHHHHHHHH                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  551  DLSQLWFREFFLELTMGRRIQFPIEMSMPWILTDHILETKEASMMEYVLY  600          ~~~~
+STR        TTTTTT HHHHHHHTTTTTTT GGG HHHHHHHHHHHH  GGGTTHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  601  SLDLYNDSAHYALTRFNKQFLYDEIEAEVNLCFDQFVYKLADQIFAYYKV  650          ~~~~
+STR       HHHHHHHHHHHHHHH   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  651  MAGSLLLDKRLRSECKNQGATIHLPPSNRYETLLKQRHVQLLGRSIDLNR  700          ~~~~
+STR       HHHHHH  HHHHHHHHHH           HHHHHHTTTEEETTEEE HHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  701  LITQRVSAAMYKSLELAIGRFESEDLTSIVELDGLLEINRMTHKLLSRYL  750          ~~~~
+STR       HHHHHHHHHHHHHHHHHHHHHHH  GGGHHHHHHHHHHHHHHHHHHHH                 ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  751  TLDGFDAMFREANHNVSAPYGRITLHVFWELNYDFLPNYCYNGSTNRFVR  800          ~~~~
+STR           HHHHHHHHH TTTTTTTHHHHHHHHHHHHHHHHHEEEETTTTEEEE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  801  TVLPFSQEFQRDKQPNAQPQYLHGSKALNLAYSSIYGSYRNFVGPPHFQV  850          ~~~~
+STR         GGG             GGGTTT HHHHHHHHHHHGGGTTTB HHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  851  ICRLLGYQGIAVVMEELLKVVKSLLQGTILQYVKTLMEVMPKICRLPRHE  900          ~~~~
+STR       HHHHHHHHHHHHHHHHHHHHHHHHHH HHHHHHHHHHHH TTBT    GG               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  901  YGSPGILEFFHHQLKDIVEYAELKTVCFQNLREVGNAILFCLLIEQSLSL  950          ~~~~
+STR       G HHHHHHHHHHHHHHHHHTTTTTTHHHHHHHHHHHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  951  EEVCDLLHAAPFQNILPRVHVKEGERLDAKMKRLESKYAPLHLVPLIERL 1000          ~~~~
+STR       HHHHHHHHHGGG         TTTT HHHHHHHHHHHHGGG HHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1001 GTPQQIAIAREGDLLTKERLCCGLSMFEVILTRIRSFLDDPIWRGPLPSN 1050          ~~~~
+STR         HHHHHHHHHHHHHHH  GGG   HHHHHHHHHHHTTTTTTTTT  TTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1051 GVMHVDECVEFHRLWSAMQFVYCIPVGTHEFTVEQCFGDGLHWAGCMIIV 1100          ~~~~
+STR       TTTTTTB   HHHHHHHHHHHHH   TTTT  HHHHH HHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1101 LLGQQRRFAVLDFCYHLLKVQKHDGKDEIIKNVPLKKMVERIRKFQILND 1150          ~~~~
+STR       HH HHHHHHHH HHHHHHHHHHHH    EETTEEHHHHHHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .                                             ~~~~
+SEQ  1151 EIITILDKYLKEHVRCFQPPIHQSL                          1175          ~~~~
+STR       HHHHHHHHHH                                                       ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   LEU     7 A      GLU     18 A                            ~~~~
+LOC  AlphaHelix   ARG    58 A      THR     85 A                            ~~~~
+LOC  AlphaHelix   ASN   103 A      LEU    143 A                            ~~~~
+LOC  AlphaHelix   GLU   155 A      MET    177 A                            ~~~~
+LOC  AlphaHelix   CYS   179 A      PHE    194 A                            ~~~~
+LOC  AlphaHelix   PRO   201 A      ALA    215 A                            ~~~~
+LOC  AlphaHelix   LYS   219 A      VAL    230 A                            ~~~~
+LOC  AlphaHelix   TYR   234 A      ASN    251 A                            ~~~~
+LOC  AlphaHelix   PRO   257 A      MET    274 A                            ~~~~
+LOC  AlphaHelix   ILE   281 A      LYS    287 A                            ~~~~
+LOC  AlphaHelix   LEU   292 A      GLN    301 A                            ~~~~
+LOC  AlphaHelix   LEU   315 A      THR    321 A                            ~~~~
+LOC  AlphaHelix   ILE   345 A      TYR    366 A                            ~~~~
+LOC  AlphaHelix   ASP   384 A      VAL    417 A                            ~~~~
+LOC  AlphaHelix   GLU   434 A      THR    439 A                            ~~~~
+LOC  AlphaHelix   SER   445 A      VAL    490 A                            ~~~~
+LOC  AlphaHelix   LEU   492 A      LYS    501 A                            ~~~~
+LOC  AlphaHelix   ASN   505 A      VAL    518 A                            ~~~~
+LOC  AlphaHelix   SER   556 A      ALA    571 A                            ~~~~
+LOC  AlphaHelix   GLY   586 A      SER    599 A                            ~~~~
+LOC  AlphaHelix   PHE   601 A      CYS    615 A                            ~~~~
+LOC  AlphaHelix   GLU   625 A      THR    631 A                            ~~~~
+LOC  AlphaHelix   MET   644 A      THR    655 A                            ~~~~
+LOC  AlphaHelix   TYR   663 A      ARG    681 A                            ~~~~
+LOC  AlphaHelix   GLN   685 A      LEU    722 A                            ~~~~
+LOC  AlphaHelix   LYS   725 A      GLN    734 A                            ~~~~
+LOC  AlphaHelix   TYR   746 A      LYS    751 A                            ~~~~
+LOC  AlphaHelix   LEU   764 A      SER    789 A                            ~~~~
+LOC  AlphaHelix   ILE   795 A      ARG    814 A                            ~~~~
+LOC  AlphaHelix   PHE   821 A      ASN    829 A                            ~~~~
+LOC  AlphaHelix   ARG   838 A      ASN    854 A                            ~~~~
+LOC  AlphaHelix   LYS   892 A      TYR    902 A                            ~~~~
+LOC  AlphaHelix   PRO   911 A      GLN    942 A                            ~~~~
+LOC  AlphaHelix   THR   944 A      VAL    955 A                            ~~~~
+LOC  AlphaHelix   SER   969 A      GLU    985 A                            ~~~~
+LOC  AlphaHelix   VAL   992 A      ALA   1025 A                            ~~~~
+LOC  AlphaHelix   LEU  1043 A      TYR   1054 A                            ~~~~
+LOC  AlphaHelix   LEU  1059 A      LEU   1066 A                            ~~~~
+LOC  AlphaHelix   PRO  1069 A      LYS   1083 A                            ~~~~
+LOC  AlphaHelix   MET  1092 A      SER   1102 A                            ~~~~
+LOC  AlphaHelix   PHE  1127 A      CYS   1139 A                            ~~~~
+LOC  AlphaHelix   VAL  1149 A      PHE   1153 A                            ~~~~
+LOC  AlphaHelix   ASP  1155 A      LEU   1168 A                            ~~~~
+LOC  AlphaHelix   GLN  1170 A      LEU   1177 A                            ~~~~
+LOC  AlphaHelix   PHE  1179 A      ASP   1190 A                            ~~~~
+LOC  AlphaHelix   LEU  1201 A      LEU   1226 A                            ~~~~
+LOC  310Helix     SER    90 A      ALA     92 A                            ~~~~
+LOC  310Helix     ARG   148 A      LYS    150 A                            ~~~~
+LOC  310Helix     LYS   329 A      ARG    331 A                            ~~~~
+LOC  310Helix     PRO   531 A      LEU    533 A                            ~~~~
+LOC  310Helix     ILE   640 A      MET    642 A                            ~~~~
+LOC  310Helix     ALA   658 A      MET    660 A                            ~~~~
+LOC  310Helix     LEU   792 A      SER    794 A                            ~~~~
+LOC  310Helix     LEU   869 A      PHE    871 A                            ~~~~
+LOC  310Helix     PRO   885 A      TYR    887 A                            ~~~~
+LOC  310Helix     GLY   903 A      TYR    905 A                            ~~~~
+LOC  310Helix     HIS   965 A      TYR    967 A                            ~~~~
+LOC  310Helix     ALA  1026 A      PHE   1028 A                            ~~~~
+LOC  310Helix     ALA  1055 A      LEU   1057 A                            ~~~~
+LOC  310Helix     LEU  1086 A      CYS   1088 A                            ~~~~
+LOC  Strand       VAL   304 A      PHE    308 A                            ~~~~
+LOC  Strand       MET   311 A      GLU    314 A                            ~~~~
+LOC  Strand       VAL   755 A      LEU    757 A                            ~~~~
+LOC  Strand       ARG   760 A      ILE    762 A                            ~~~~
+LOC  Strand       TYR   855 A      ASN    858 A                            ~~~~
+LOC  Strand       ARG   863 A      ARG    866 A                            ~~~~
+LOC  Strand       ILE  1195 A      ILE   1196 A                            ~~~~
+LOC  Strand       VAL  1199 A      PRO   1200 A                            ~~~~
+LOC  TurnI        CYS    98 A      GLN    101 A                            ~~~~
+LOC  TurnI        HIS   145 A      ARG    148 A                            ~~~~
+LOC  TurnII       ASN   216 A      LYS    219 A                            ~~~~
+LOC  TurnII       ILE   231 A      TYR    234 A                            ~~~~
+LOC  TurnI        GLY   276 A      SER    279 A                            ~~~~
+LOC  TurnIV       LYS   288 A      ASN    291 A                            ~~~~
+LOC  TurnIV       PRO   306 A      GLY    309 A                            ~~~~
+LOC  TurnII'      PHE   308 A      MET    311 A                            ~~~~
+LOC  TurnI        SER   322 A      TYR    325 A                            ~~~~
+LOC  TurnIV       HIS   324 A      GLU    327 A                            ~~~~
+LOC  TurnI        TYR   325 A      ASN    328 A                            ~~~~
+LOC  TurnIV       GLU   326 A      LYS    329 A                            ~~~~
+LOC  TurnIV       TRP   332 A      THR    335 A                            ~~~~
+LOC  TurnI        THR   333 A      SER    336 A                            ~~~~
+LOC  TurnI        ASP   421 A      SER    424 A                            ~~~~
+LOC  TurnI        LYS   422 A      ASN    425 A                            ~~~~
+LOC  TurnVIII     TYR   423 A      LYS    426 A                            ~~~~
+LOC  TurnI        ASN   425 A      CYS    428 A                            ~~~~
+LOC  TurnI        PRO   429 A      ALA    432 A                            ~~~~
+LOC  TurnI        THR   439 A      ASN    442 A                            ~~~~
+LOC  TurnI        ARG   440 A      TYR    443 A                            ~~~~
+LOC  TurnI        TRP   521 A      GLY    524 A                            ~~~~
+LOC  TurnI        PRO   527 A      ASP    530 A                            ~~~~
+LOC  TurnIV       THR   579 A      SER    582 A                            ~~~~
+LOC  TurnI        LEU   580 A      SER    583 A                            ~~~~
+LOC  TurnI        ARG   581 A      LEU    584 A                            ~~~~
+LOC  TurnI        LEU   618 A      LEU    621 A                            ~~~~
+LOC  TurnI        SER   619 A      TRP    622 A                            ~~~~
+LOC  TurnI        GLN   620 A      PHE    623 A                            ~~~~
+LOC  TurnI'       THR   631 A      ARG    634 A                            ~~~~
+LOC  TurnVIII     GLY   633 A      ILE    636 A                            ~~~~
+LOC  TurnIV       ARG   635 A      PHE    638 A                            ~~~~
+LOC  TurnI        MET   660 A      TYR    663 A                            ~~~~
+LOC  TurnIV       GLN   752 A      VAL    755 A                            ~~~~
+LOC  TurnIV       GLN   756 A      GLY    759 A                            ~~~~
+LOC  TurnI'       LEU   757 A      ARG    760 A                            ~~~~
+LOC  TurnI        ASN   831 A      ALA    834 A                            ~~~~
+LOC  TurnVIII     ALA   834 A      GLY    837 A                            ~~~~
+LOC  TurnI        ASN   858 A      THR    861 A                            ~~~~
+LOC  TurnI        GLY   859 A      ASN    862 A                            ~~~~
+LOC  TurnIV       TYR   887 A      GLY    890 A                            ~~~~
+LOC  TurnI        TYR   905 A      PHE    908 A                            ~~~~
+LOC  TurnVIII     PRO   957 A      CYS    960 A                            ~~~~
+LOC  TurnI        TYR   986 A      LEU    989 A                            ~~~~
+LOC  TurnIV       GLU   988 A      THR    991 A                            ~~~~
+LOC  TurnI        LEU   989 A      VAL    992 A                            ~~~~
+LOC  TurnII       LYS  1038 A      GLU   1041 A                            ~~~~
+LOC  TurnI        SER  1102 A      ASP   1105 A                            ~~~~
+LOC  TurnI        ASP  1106 A      TRP   1109 A                            ~~~~
+LOC  TurnI        PRO  1107 A      ARG   1110 A                            ~~~~
+LOC  TurnI        ILE  1108 A      GLY   1111 A                            ~~~~
+LOC  TurnI        PRO  1114 A      GLY   1117 A                            ~~~~
+LOC  TurnIV       ASN  1116 A      MET   1119 A                            ~~~~
+LOC  TurnIV       HIS  1120 A      GLU   1123 A                            ~~~~
+LOC  TurnI        GLY  1143 A      GLU   1146 A                            ~~~~
+LOC  TurnIV       ILE  1195 A      ASN   1198 A                            ~~~~
+LOC  TurnI'       ILE  1196 A      VAL   1199 A                            ~~~~
+LOC  GammaInv     MET   177 A      CYS    179 A                            ~~~~
