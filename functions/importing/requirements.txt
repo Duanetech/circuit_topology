@@ -1,4 +1,6 @@
 scipy
 biopython
 numpy
-salilab dssp
+dssp
+ipympl
+matplotlib
