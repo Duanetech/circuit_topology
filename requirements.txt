@@ -4,3 +4,4 @@ numpy
 dssp
 ipympl
 matplotlib
+ipywidgets
