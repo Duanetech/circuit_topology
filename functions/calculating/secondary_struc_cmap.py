@@ -73,4 +73,4 @@ def secondary_struc_cmap(chain,seq,struc,cutoff_distance = 6,cutoff_numcontacts 
 
     cmap5 = (cmap2 >= cutoff_numcontacts) * 1
     
-    return cmap5,cmap,cmap2,struc,segment,numbering
+    return cmap5,struc,segment,numbering
