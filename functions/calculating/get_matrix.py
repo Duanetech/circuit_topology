@@ -11,7 +11,7 @@ def get_matrix(cmap3,protid):
 
     #Change the values based on the type of connection
     for z in range(0,len(rows)):
-        c[z][z] = 'P'
+        c[z][z] = '-'
 
     for x in range(0,len(rows)):
         for y in range(x+1,len(rows)):
