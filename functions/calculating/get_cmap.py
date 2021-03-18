@@ -48,10 +48,8 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
     coords = coords[np.where(duplicate != 1)]
 
     #atom-atom based contact map
-    cmap = squareform(pdist(coords))
+    cmap = (squareform(pdist(coords)) < cutoff_distance) * 1
     natoms = len(residue_number)
-
-    cmap = (cmap < cutoff_distance) * 1
 
     #segment-segment based contact map, based on atom-atom based contact map
     cmap2 = np.zeros([nseg,nseg],dtype='int')
@@ -81,6 +79,8 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
             cmap2[j+i][j] = 0
 
     cmap3 = (cmap2 >= cutoff_numcontacts) * 1
-    return cmap3, cmap2, protid ,numbering, res_names
+    index = np.transpose(np.nonzero(np.triu(cmap3)))
+
+    return cmap3, cmap2, numbering, protid ,index, res_names
 
 
