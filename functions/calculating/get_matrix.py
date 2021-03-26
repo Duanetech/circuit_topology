@@ -4,7 +4,6 @@ def get_matrix(index):
     
     #create a numerical and character matrix based on the amount of nonzero values found in the previous function
     mat = np.zeros((len(index), len(index)),dtype = 'int')
-    c = np.empty([len(index),len(index)],dtype=object)
 
     #Change the values based on the type of connection
     np.fill_diagonal(c,'-')
@@ -71,6 +70,7 @@ def get_matrix(index):
                 X += 1
                 mat[x, y]=4
                 mat[y, x]=4
+
     psc = np.array([P,S,X],dtype='int')
 
     return mat,psc

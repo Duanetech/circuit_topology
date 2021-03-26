@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def secondary_struc_filter(cmap3,struc,filtered_structures = ['H','G'],ss_elements = ['H','E','B','G']):
+def secondary_struc_filter(index,struc,filtered_structures = ['H','G'],ss_elements = ['H','E','B','G','T','S','I']):
     
     #STRIDE
     # H - Alpha-Helix
@@ -27,17 +27,20 @@ def secondary_struc_filter(cmap3,struc,filtered_structures = ['H','G'],ss_elemen
     for i in range(0,struc_length):
         if struc[i] in ss_elements:
             struc_id[i] = nstruc
-            if i == struc_length:
+            if i == struc_length-1:
                 nstruc = nstruc + 1
             elif struc[i+1] != struc[i]:
                 nstruc = nstruc + 1
     nstruc = nstruc - 1
     
-    cmap4 = np.array(cmap3,copy=True)
-    for i in range(len(cmap3)):
-        for j in range(len(cmap3)):
-            if cmap3[i][j] == 1:
-                if struc_id[i] == struc_id[j] and struc[i] in filtered_structures:
-                    cmap4[i][j] = 0
+    remove = []
 
-    return cmap4
+    for num,i in enumerate(index):
+        res1 = i[0]
+        res2 = i[1]
+        if struc_id[res1] == struc_id[res2] and struc[res1] in filtered_structures:
+            remove.append(num)
+
+    index_filtered = np.delete(index,remove,0)
+
+    return index_filtered,nstruc

@@ -1,11 +1,13 @@
 import numpy as np
 
-def energy_cmap(cmap3,numbering,res_names,potential_sign = 0):
+def energy_cmap(index,numbering,res_names,potential_sign = 0):
     
     n_amino = 20
-    aamap = np.array(['CYS','MET','PHE','ILE','LEU','VAL','TRP','TYR','ALA','GLY','THR','SER','GLN','ASN','GLU','ASP','HIS','ARG','LYS','PRO'])
-    y,x = np.nonzero(cmap3)
-    
+    aamap = np.array(['CYS','MET','PHE','ILE','LEU','VAL','TRP','TYR','ALA','GLY','THR','SER','GLN','ASN','GLU','ASP','HIS','ARG','LYS','PRO'])\
+
+    y = index[:,0]
+    x = index[:,1]
+
     numbering = np.array([numbering]).T
 
     res_names = np.array(res_names)
@@ -26,7 +28,7 @@ def energy_cmap(cmap3,numbering,res_names,potential_sign = 0):
             if nan_matrix[i][j] == 1:
                 potential_matrix[i][j]=potential_matrix[j][i]
 
-    energy_cmap = np.zeros([len(cmap3),len(cmap3)],'float')
+    energy_cmap = np.zeros([len(numbering),len(numbering)],'float')
 
     for i in range(0,len(x)):
 
@@ -38,5 +40,7 @@ def energy_cmap(cmap3,numbering,res_names,potential_sign = 0):
     else:
         energy_cmap = (energy_cmap < 0) * 1
  
+    energy_cmap = np.transpose(np.nonzero(np.triu(energy_cmap)))
+
     return energy_cmap
 
