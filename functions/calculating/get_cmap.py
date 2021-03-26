@@ -1,11 +1,12 @@
 from Bio.PDB import MMCIFParser,Selection
 from Bio import BiopythonWarning
 from scipy.spatial.distance import pdist, squareform
+from collections import Counter
 import numpy as np
 import warnings
 
-def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
-            length_filtering = 0,exclude_neighbour=4):
+def get_cmap(chain,cutoff_distance = 4.5,cutoff_numcontacts = 5,
+            length_filtering = 0,exclude_neighbour=3):
 
     protid = chain.get_parent().get_parent().id
     
@@ -14,27 +15,27 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
     atom_list = Selection.unfold_entities(chain,"A")
     
     #Make list of the atom information
-    residue_number = np.zeros(len(atom_list),dtype='int')
+    
+    #Residue information
     res_names = []
+    numbering = []
+    
+    #Atom information
+    residue_number = np.zeros(len(atom_list),dtype='int')
     atom_names = []
     coords = np.zeros([len(atom_list),3])
-    y = np.zeros(len(atom_list),dtype='int')
-    res_names = []
 
     for res in res_list:
         res_names.append(res.get_resname())
+        numbering.append(res.get_id()[1])
 
     for num, atom in enumerate(atom_list):
         residue_number[num] = atom.get_parent().get_id()[1]
         coords[num] = atom.get_coord()
-        atom_names.append(atom.get_name())
-        y[num] = num
-        
-    numbering = list(range(residue_number[0],residue_number[-1]+1))
-    residue_number = residue_number - numbering[0] 
+        atom_names.append(atom.get_name()) 
     
     #divide into segments based on residue
-    nseg = len(numbering)
+    nseg = len(res_list)
     segment = list(range(0,nseg+1))
 
     #delete duplicate atoms due to multiple occupancy
@@ -43,44 +44,30 @@ def get_cmap(chain,cutoff_distance = 3.6,cutoff_numcontacts = 3,
         if residue_number[i] == residue_number[i-1] and atom_names[i] == atom_names[i-1]:
             duplicate[i] = 1
     
-
     residue_number = residue_number[np.where(duplicate != 1)]
     coords = coords[np.where(duplicate != 1)]
 
-    #atom-atom based contact map
+    #get indices of atom-atom contacts
     cmap = (squareform(pdist(coords)) < cutoff_distance) * 1
-    natoms = len(residue_number)
+    np.fill_diagonal(cmap,0)
+    atom_index = np.transpose(np.nonzero(np.triu(cmap)))
 
-    #segment-segment based contact map, based on atom-atom based contact map
-    cmap2 = np.zeros([nseg,nseg],dtype='int')
+    #segment-segment based index, based on atom-atom based index
 
-    for i in range(0,natoms):
-        for j in range(i+1,natoms):
-               
-            seg_i = segment[residue_number[i]]
-            seg_j = segment[residue_number[j]]
-            if length_filtering != 0:
-                print('not zero')
-                dist_sequence = abs(seg_i-seg_j)
-                s
-                if cmap[i][j] == 1 and dist_sequence < length_filtering:
-                    cmap2[seg_i][seg_j] = cmap2[seg_i][seg_j]+1
-                        
-            else:
-                if cmap[i][j] == 1:
-                        cmap2[seg_i][seg_j] = cmap2[seg_i][seg_j]+1
+    res_index = []
+    for i in atom_index:
+        res_1 = np.where(numbering == residue_number[i[0]])[0][0]
+        res_2 = np.where(numbering == residue_number[i[1]])[0][0]
+        if abs(res_1-res_2) > exclude_neighbour:
+            res_index.append((res_1,res_2))
 
-    cmap2 = cmap2 + cmap2.T
+    count = Counter(res_index)
+    index = []
+    for values in count:
+        if count[values] >= 5:
+            index.append(values)
+   
 
-    #set values close to diagonal to zero
-    for i in range(0,exclude_neighbour+1):
-        for j in range(0,len(cmap2)-i):
-            cmap2[j][j+i] = 0
-            cmap2[j+i][j] = 0
-
-    cmap3 = (cmap2 >= cutoff_numcontacts) * 1
-    index = np.transpose(np.nonzero(np.triu(cmap3)))
-
-    return cmap3, cmap2, numbering, protid ,index, res_names
+    return np.array(index), numbering, protid ,res_names
 
 

@@ -13,9 +13,12 @@ def retrieve_chain(input_file):
             structure = MMCIFParser().get_structure(input_file.replace('.cif',''),input_filepath)
    
     else:
-        input_filepath= 'input_files/pdb/' + input_file
-       
-        structure = PDBParser(PERMISSIVE=1).get_structure(input_file.replace('.pdb',''),input_filepath)
+        with warnings.catch_warnings():
+            warnings.simplefilter('ignore', BiopythonWarning)
+        
+            input_filepath= 'input_files/pdb/' + input_file
+
+            structure = PDBParser(PERMISSIVE=1).get_structure(input_file.replace('.pdb',''),input_filepath)
 
     chainlist = structure[0].get_list()
     chain = chainlist[0]
@@ -29,6 +32,6 @@ def retrieve_chain(input_file):
     for res in removeres:
         chain.detach_child(res)
         
-    return chain, input_filepath
+    return chain
 
 

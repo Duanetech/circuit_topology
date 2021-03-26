@@ -2,7 +2,7 @@ from glob import glob
 import os 
 
 
-for file in glob('/Users/duanemoes/Desktop/Desktop/RP1/Code/python/circuit_topology/input_files/cif/test/*.pdb'):
+for file in glob('/Users/duanemoes/Desktop/Desktop/RP1/Code/python/circuit_topology/input_files/cif/*.cif'):
     head,name = os.path.split(file)
     cmd.load(file)
     cmd.remove('hetatm')
