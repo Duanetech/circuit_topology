@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def stats_plot(entangled,psc,protid,fileformat='jpeg'):
+def stats_plot(entangled,psc,protid):
  
     fig,(ax1,ax2)= plt.subplots(1,2)
     ax1.plot(entangled)

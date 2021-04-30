@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def secondary_struc_filter(index,struc,filtered_structures = ['H','G'],ss_elements = ['H','E','B','G','T','S','I']):
+def secondary_struc_filter(index,struc,filtered_structures = ['H','E'],ss_elements = ['H','E','B','G','b']):
     
     #STRIDE
     # H - Alpha-Helix
@@ -43,4 +43,4 @@ def secondary_struc_filter(index,struc,filtered_structures = ['H','G'],ss_elemen
 
     index_filtered = np.delete(index,remove,0)
 
-    return index_filtered,nstruc
+    return index_filtered,struc_id
