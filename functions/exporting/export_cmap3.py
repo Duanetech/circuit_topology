@@ -1,4 +1,5 @@
 import numpy as np 
+import pandas as pd 
 
 def export_cmap3(index,protid,numbering):
     cmap = np.zeros([len(numbering),len(numbering)],dtype='int')
@@ -9,5 +10,5 @@ def export_cmap3(index,protid,numbering):
         cmap[x][y] = 1
         cmap[y][x] = 1
 
-    fname = 'results/circuit_diagram/'+protid+'-cmap3.csv'
-    np.savetxt(fname,cmap,fmt='%i',delimiter=',')
+    df = pd.DataFrame(cmap,index=numbering,columns=numbering)
+    df.to_csv('results/circuit_diagram/'+protid+'-cmap3.csv') 

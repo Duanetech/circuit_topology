@@ -1,5 +1,6 @@
 from  Bio.PDB.DSSP import DSSP
 from Bio.PDB import Selection
+import warnings
 
 def retrieve_secondary_struc(chain,input_path):
     
@@ -32,6 +33,9 @@ def retrieve_secondary_struc(chain,input_path):
 
     if len(struc) > len(seq):
         struc = struc[0:len(seq)]
+
+    if len(seq) != len(res_list):
+        warnings.warn(f'PDB file and Secondary structure map do not match!\n {chain.get_parent().get_parent().id} - PDB: {len(res_list)} Residues VS. SS: {len(seq)} Residues. ')
     
     return seq,struc
 

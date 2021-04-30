@@ -6,7 +6,7 @@ def get_matrix(index):
     mat = np.zeros((len(index), len(index)),dtype = 'int')
 
     #Change the values based on the type of connection
-    np.fill_diagonal(c,'-')
+    
 
     P = 0
     S = 0
@@ -56,7 +56,7 @@ def get_matrix(index):
                 P += 1
                 mat[x, y]=3
                 mat[y, x]=2
-            
+            #CS
             elif (j ==k):
                 mat[x,y]=7
                 mat[y,x]=7

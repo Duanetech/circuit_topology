@@ -2,7 +2,7 @@ from Bio.PDB import MMCIFParser, PDBParser
 from Bio import BiopythonWarning
 import warnings
 
-def retrieve_chain(input_file):
+def retrieve_chain(input_file,chainid = 0):
     if input_file.endswith('cif'):
         
         input_filepath= 'input_files/cif/' + input_file
@@ -20,18 +20,28 @@ def retrieve_chain(input_file):
 
             structure = PDBParser(PERMISSIVE=1).get_structure(input_file.replace('.pdb',''),input_filepath)
 
-    chainlist = structure[0].get_list()
-    chain = chainlist[0]
-    
-    #remove heteroatoms (water molecules)
-    removeres = []
-    for res in chain:
-        if res.id[0] != ' ':
-            removeres.append(res.id)
-            
-    for res in removeres:
-        chain.detach_child(res)
-        
-    return chain
+    model = structure[0]
+    chainlist = model.get_list()
+
+    residue_to_remove = []
+    for chain in model:
+        for residue in chain:
+            if residue.id[0] != ' ':
+                residue_to_remove.append((chain.id, residue.id))
+
+
+    for residue in residue_to_remove:
+        model[residue[0]].detach_child(residue[1])
+
+    if type(chainid) == int:
+        chain = model.get_list()[chainid]
+    elif type(chainid) == str:
+        chain = model[chainid]
+    else:
+        raise TypeError
+
+    protid = structure.id+ '_' + chain.id
+
+    return chain,protid
 
 
