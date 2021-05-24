@@ -1,3 +1,11 @@
+"""
+Created on Mon May 24 17:00:09 2021
+
+@author: DuaneM
+
+Function that uses the DSSP program to calculate the secondary structure.
+Note! This does not work well atm. Do use the Stride_seconday struc function.
+"""
 from  Bio.PDB.DSSP import DSSP
 from Bio.PDB import Selection
 import warnings

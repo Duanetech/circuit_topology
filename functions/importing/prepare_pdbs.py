@@ -1,3 +1,12 @@
+"""
+Created on Mon May 24 17:00:09 2021
+
+@author: DuaneM
+
+Function editing PDB files, this removes heteroatoms.
+Note! Only run this in PyMol
+"""
+
 from glob import glob
 import os 
 
