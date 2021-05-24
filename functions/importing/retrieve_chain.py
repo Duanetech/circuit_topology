@@ -1,3 +1,12 @@
+"""
+Created on Mon May 24 17:00:09 2021
+
+@author: DuaneM
+
+Function for creating the chain object used in Bio.PDB and all the functions. Can specify which chain
+
+"""
+
 from Bio.PDB import MMCIFParser, PDBParser
 from Bio import BiopythonWarning
 import warnings

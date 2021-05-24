@@ -1,14 +1,23 @@
+"""
+Created on Mon May 24 17:00:09 2021
+
+@author: DuaneM
+
+Function that filters out residue contacts that are within a specified secondary structures. 
+Uses Secondary structure produced in Stride_secondary_struc.py
+"""
 import numpy as np
 
-
-def secondary_struc_filter(index,struc,filtered_structures = ['H','E'],ss_elements = ['H','E','B','G','b']):
+def secondary_struc_filter(index,struc,filtered_structures = ['H','E'],ss_elements = ['H','E','B','b','G','b']):
     
     #STRIDE
     # H - Alpha-Helix
-    # E - Extended Configuration (Beta-sheet)
-    # B - Isolated Beta Bridge
-    # b - Isolated Beta Bridge
+    # B - Isolated Beta-Bridge
+    # b - Isolated Beta-Bridge
     # G - 3-10 Helix
+    # I - Pi helix
+    # T - Turn
+    # C - Coil
 
     #DSSP
     # H - Alpha-Helix

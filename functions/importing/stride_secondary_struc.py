@@ -1,4 +1,10 @@
-#Reads STRIDE files and translates them so it can be used for secondary structure analysis
+"""
+Created on Mon May 24 17:00:09 2021
+
+@author: DuaneM
+
+Function that reads STRIDE files, that are downloaded externally and generates a secondary structure.
+"""
 
 # H - Alpha-Helix
 # B - Isolated Beta-Bridge
@@ -10,6 +16,8 @@
 
 def stride_secondary_struc(stride_file):
 
+    stride_file = 'input_files/stride/' + stride_file
+    
     f = open(stride_file,'r')
 
     chain = 1
