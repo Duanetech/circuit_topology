@@ -9,12 +9,21 @@ import numpy as np
 import pandas as pd 
 
 def export_cmap4(cmap4,segment,structure,protid):
-    names = []
+    
+   cmap = np.zeros([max(segment),max(segment)],dtype='int')
 
-    for i in range(1,max(segment)+1):
-       idx = structure[np.where(segment == i)[0][0]]
-       names.append(str(i)+' - '+idx)
+   for row in cmap4:
+        x = row[0]
+        y = row[1]
+        cmap[x][y] = 1
+        cmap[y][x] = 1
+   
+   names = []
 
-    df = pd.DataFrame(cmap4,columns=names,index=names)
-    df.to_csv('results/circuit_diagram/'+protid+'_cmap4.csv',sep=';')
-    print(f'Succesfully saved {protid}_cmap4.csv')
+   for i in range(1,max(segment)+1):
+      idx = structure[np.where(segment == i)[0][0]]
+      names.append(str(i)+' - '+idx)
+
+   df = pd.DataFrame(cmap,columns=names,index=names)
+   df.to_csv('results/circuit_diagram/'+protid+'_cmap4.csv',sep=';')
+   print(f'Succesfully saved {protid}_cmap4.csv')

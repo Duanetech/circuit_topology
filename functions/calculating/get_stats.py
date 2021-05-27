@@ -8,6 +8,10 @@ Function for calculating the percentage of entangled contacts further along the 
 import numpy as np  
 
 def get_stats(mat):
+    if mat.shape == (0,0):
+        print('Error - mat empty')
+        return np.array([0])
+
     entangled = np.zeros([len(mat),1])
     if mat.max() == 7:
         for i in range(0,len(mat)-1):

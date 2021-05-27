@@ -32,7 +32,7 @@ def secondary_struc_cmap(
     numbering =  np.array(numbering)
     res_range = np.array(range(len(numbering)))
 
-    assert len(structure) == len(numbering), f'PDB file and Secondary structure map do not match!\n {chain.get_parent().get_parent().id} - PDB: {len(res_list)} Residues VS. STRIDE: {len(seq)} Residues. '
+    assert len(structure) == len(numbering), f'PDB file and Secondary structure map do not match!\n {chain.get_parent().get_parent().id} - PDB: {len(res_list)} Residues VS. STRIDE: {len(sequence)} Residues. '
 
     ns = NeighborSearch(atom_list)
     all_neighbours = ns.search_all(4.5,'A')
@@ -55,13 +55,13 @@ def secondary_struc_cmap(
         res2 = res_range[numbering == atompair[1].get_parent().id[1]][0]
 
         if abs(res1-res2) > exclude_neighbour:
-            if segment[res1] != 0 and segment[res2] != 0:
+            if segment[res1] != 0 and segment[res2] != 0 and segment[res1] != segment[res2]:
                 index_list.append((segment[res1]-1,segment[res2]-1))
                 
     index_list.sort()
     count = Counter(index_list)
     index = [values for values in count if count[values] >= 10]
 
-    return index,segment
+    return np.array(index),segment
         
     

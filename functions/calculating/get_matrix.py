@@ -13,7 +13,7 @@ def get_matrix(index,protid):
     if index.shape == (0,):
         print('Error - index empty')
         mat = np.zeros((len(index), len(index)),dtype = 'int')
-        psc = np.array([0,0,0],dtype='int')
+        psc = [protid,0,0,0]
         return mat,psc
 
     if np.shape(index)[1] == 2:

@@ -5,15 +5,18 @@ Created on Mon May 24 17:00:09 2021
 
 For exporting amount of PSC contacts to a csv file. 
 """
-import numpy as np 
+import pandas as pd
 
 def export_psc(psclist):
-    if len(psclist[0]) == 4:
-        arr = np.array(psclist,dtype='object')
-        np.savetxt('results/statistics/pscresults.csv',arr,fmt='%s,%s,%s,%s')
-        print(f'Succesfully saved pscresults.csv')
-        
-    if len(psclist[0]) > 4:
-        arr = np.array(psclist,dtype='object')
-        np.savetxt('results/statistics/pscresults.csv',arr,fmt='%s,%s,%s,%s,%s,%s,%s')
-        print(f'Succesfully saved pscresults.csv')
+    if type(psclist[0]) == str:
+        if len(psclist) == 4:
+            df = pd.DataFrame(psclist,columns=['protid','P','S','C'])
+        else:
+            df = pd.DataFrame(psclist,columns=['protid','P','S','C','I','T','L'])
+    elif len(psclist[0]) == 4:
+        df = pd.DataFrame(psclist,columns=['protid','P','S','C'])
+    else:
+        df = pd.DataFrame(psclist,columns=['protid','P','S','C','I','T','L'])
+
+    df.to_csv('results/statistics/pscresults.csv')
+    print(f'Succesfully exported pscresults.csv')
