@@ -106,26 +106,30 @@ def string_pdb(index,numbering,threshold):
 
     n2 = np.unique(n)
 
+    n = np.array([np.where(i==n2)[0][0] for i in n])   
+
     segends = []
-    for i in range(1,max(n)+1):
+    for i in range(0,max(n)+1):
         try:
-            segends.append(index[s2[max(np.where(n==i)[0])]][1])
+            segends.append(index[s2[np.max(np.where(n==i))]][1])
         except ValueError:
             continue
 
-    segnums = max(n)
+    segends = np.array(segends) + 1     
+    segnums = max(n)+1
     length = np.array(segends[0])
     length = np.append(length,np.diff(segends))
-    meanlength = np.mean(length)
+    meanlength = np.around(np.mean(length),3)
     standard_dev = np.std(length,ddof=1)
     threshold_length = meanlength - standard_dev / 2
 
     #delete those circuits that are too small
-    index_circuit = np.zeros(segnums)
+    index_circuit = np.zeros(segnums,dtype='int')
     for i in range(len(length)):
         if segnums != 1 and length[i] <= threshold_length:
             index_circuit[i] = 1
 
     segnums = int(segnums - np.sum(index_circuit))
-
+    segends = segends.tolist()
+    
     return segnums,meanlength,segends

@@ -9,6 +9,8 @@ import numpy as np
 import pandas as pd
 
 def export_mat(index,mat,protid):
+    if mat.shape == (0,0):
+        print(f'Error - mat is empty. Failed to export {protid}')
 
     if np.shape(index)[1] == 2:
 
