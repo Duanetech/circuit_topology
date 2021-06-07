@@ -9,7 +9,6 @@ Note! does not produce a contact map but rather an index of the non-zero values 
 
 import numpy as np
 from Bio.PDB import PDBParser,Selection,NeighborSearch
-from scipy.spatial.distance import pdist, squareform
 from collections import Counter
 
 def secondary_struc_cmap(
@@ -35,7 +34,7 @@ def secondary_struc_cmap(
     assert len(structure) == len(numbering), f'PDB file and Secondary structure map do not match!\n {chain.get_parent().get_parent().id} - PDB: {len(res_list)} Residues VS. STRIDE: {len(sequence)} Residues. '
 
     ns = NeighborSearch(atom_list)
-    all_neighbours = ns.search_all(4.5,'A')
+    all_neighbours = ns.search_all(cutoff_distance,'A')
 
     struc_length = len(structure)
     segment = np.zeros([struc_length],dtype='int')
@@ -60,7 +59,7 @@ def secondary_struc_cmap(
                 
     index_list.sort()
     count = Counter(index_list)
-    index = [values for values in count if count[values] >= 10]
+    index = [values for values in count if count[values] >= cutoff_numcontacts]
 
     return np.array(index),segment
         

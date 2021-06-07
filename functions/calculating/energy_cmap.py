@@ -9,7 +9,7 @@ import numpy as np
 
 def energy_cmap(index,numbering,res_names,protid,potential_sign = '-'):
     
-    if index.size == (0,):
+    if index.shape == (0,):
         print('Energy filtering failed - Empty index')
         return index,protid
 
